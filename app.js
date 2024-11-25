@@ -21,6 +21,7 @@ function startQuiz() {
 
     document.getElementById("start").style.display = "none";
     document.getElementById("quiz").style.display = "block";
+    document.getElementById("titulo").innerHTML = '<h4>📚 Simulador EGEL v1.1</h4>';
     showQuestion();
 }
 
@@ -28,8 +29,7 @@ function startQuiz() {
 function showQuestion() {
     const question = selectedQuestions[currentQuestionIndex];
 
-    document.getElementById("titulo").innerHTML = '<h4>Simulador EGEL v1.1</h4>';
-    document.getElementById("question").innerHTML = `<h4>Pregunta ${currentQuestionIndex + 1}/${numQuestions}</h4><h3>${question.question}</h3>`;
+    document.getElementById("question").innerHTML = `<p>Pregunta ${currentQuestionIndex + 1}/${numQuestions}</p><h3>${question.question}</h3>`;
     
     const optionsDiv = document.getElementById("options");
     optionsDiv.innerHTML = "";
@@ -56,8 +56,8 @@ function checkAnswer(selected) {
 
     // Mensaje de resultado
     const result = isCorrect
-        ? "¡Correcto!"
-        : `Incorrecto. La respuesta correcta es: ${question.correct}) ${question.correct_text}`;
+        ? "✅ ¡Correcto!"
+        : `❌ Incorrecto.<br>La respuesta correcta es: ${question.correct}) ${question.correct_text}`;
 
     // Muestra el resultado y la justificación
     document.getElementById("justification").innerHTML = `<h3>${result}</h3><h4>Justificación:</h4><p>${question.justification}</p>`;
@@ -89,9 +89,9 @@ function nextQuestion() {
     } else {
         // Muestra el puntaje final
         document.getElementById("quiz").innerHTML = `
-            <h2>¡Simulación completada!</h2>
-            <p>Tu puntuación: <strong>${score} / ${selectedQuestions.length}</strong></p>
-            <button id="restartBtn">Realizar nueva simulación</button>
+            <h2>¡Simulación completada! ✅</h2>
+            <p>Tu puntuación: <strong>${score} / ${selectedQuestions.length}</strong>  (${Math.round((score/selectedQuestions.length)*100)}%)</p>
+            <button id="restartBtn">🔁 Realizar nueva simulación</button>
         `;
 
         // Agrega funcionalidad al botón de reinicio

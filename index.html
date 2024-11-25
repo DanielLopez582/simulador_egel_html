@@ -9,14 +9,20 @@
 <body>
     <div class="container">
         <div id="titulo">
-            <h1>Simulador EGEL v1.1</h1>
+            <h1>📚 Simulador EGEL v1.1</h1>
         </div>
         <div id="start">
             <label for="numQuestions">¿Cuántas preguntas deseas responder?</label>
             <input type="number" id="numQuestions" min="1" max="150">
             <button onclick="startQuiz()">Iniciar</button>
+            <h5>
+                ⚠️ Las respuestas marcadas como correcta y justificación fueron obtenidas <br>
+                de un banco de preguntas contestadas EGEL Plus, por lo que no se puede asegurar que <br>
+                que todas las preguntas sean correctas.<br><br>
+                ❗️En los casos en los que la justificación esta en blanco es porque tampoco la habia <br>
+                en el banco.
+            </h5>
         </div>
-
         <div id="quiz" style="display: none;">
             <div id="question"></div>
             <div id="options"></div>
