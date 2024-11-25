@@ -1199,7 +1199,7 @@ const questions = [
         "justification": ""
     },
     {
-        "question": "2019. ¿Cuál es el riesgo preponderante a la salud global?",
+        "question": "15. En el primer trimestre de 2020 se registró un brote de sarampión en el país, que represento 46% de los contagios\nde las 2 últimas décadas. La distribución de casos se concentró en la Ciudad de México, con 77.7% mientras que en\nel Estado de México, Tabasco y Campeche, el grupo etario más afectado fue el de 25 a 39 años, con 26%, seguido por\nniños de 1 a 4 años, con 22%. En el ambito mundial, la OMS informa que la cobertura alcanzada por la vacunación se\nestanco entre 84% y 85%para la primera dosis y 71%para la segunda. En México se reportó una cobertura de 79% y\n62% para primera y segunda dosis, respectivamente. En el entorno global, la mortalidad registrada por este\npadecimiento aumentó en 50% de 2016 a 2019\n¿Cuál es el riesgo preponderante a la salud global?",
         "options": [
             "A) Incremento de complicaciones teratogénicas en mujeres embarazadas",
             "B) Transmision y mortalidad incrementadas en menores de 5 años",
@@ -1210,7 +1210,7 @@ const questions = [
         "justification": ""
     },
     {
-        "question": "87. ¿Qué actividades se deben decomendar?",
+        "question": "16. Una paciente de 51 años acude a consulta porque desde hace algunos meses presenta fatiga importante. Ella lo\natribuye al desgaste que le representa el cuidado de su madre de 84 años, quien se encuentra en postración desde\nhace 10 años luego de una fractura de cadera. La paciente es docente jubilada, con un nestilo de vida sedentario,\ntabaquismo a razón de 4 a 8 cigarros al día y niega consumo de alcohol. Indica que su última menstruación fua hace\n3 años y no ha recibido terapia de reemplazo hormonal. En la exploración fisica se registran signos normales, peso\nde 52 kg talla de 1.66 m y un IMC de 18.87\n¿Qué actividades se deben decomendar?",
         "options": [
             "A) Trotar",
             "B) Practica de Taichi",
@@ -1221,7 +1221,7 @@ const questions = [
         "justification": "Cuidar de personas ancianas y dependientes puede ser un trabajo muy gratificante pero exigente al mismo tiempo,\npudiendo generar estrés del cuidador. Es por eso que el cuidador precisa de grandes dosis de fortaleza para evitar\nesa tensión emocional y física generada por brindar cuidados a personas dependientes.\nEjercicio de relajación con Tai Chi: A pesar de tratarse de un arte marcial en sus orígenes, el Tai Chi actualmente es\nmás empleado como ejercicio para mejorar la salud física y mental de las personas. Consiste en una secuencia de\nmovimientos suaves, lentos y circulares conectados con nuestra respiración."
     },
     {
-        "question": "17. Un paciente de 57 años acude a consulta porque hace 5 meses fue diagnosticado con diabetes mellitus y le\nindicaron hipoglucemiantes orales; trae consigo resultados de laboratorio. Entre sus antecedentes heredofamiliares\nse encuentra diabetes, dislipidemia e hipertensión en los hermanos de su padre, quien falleció por infarto a los 61\naños. Menciona caminar poco, aunque ha procurado incrementar la frecuencia. En la exploración fisica se registra\nIMC de 28.9, TA de 130/80 mmHg y FC de 82; En el reporte de laboratorio destaca glucosa en ayunas de 115 y HbA1c\nde 6.9%, asi como colesterol total de 210, LDL de 167 y trigliceridos de 199\nLa recomendación que se le debe indicar es incorporar una dieta…",
+        "question": "82. En el reporte de laboratorio destaca glucosa en ayunas de 115 y HbA1c\nde 6.9%, asi como colesterol total de 210, LDL de 167 y trigliceridos de 199\nLa recomendación que se le debe indicar es incorporar una dieta…",
         "options": [
             "A) DASH",
             "B) Mediterránea",
@@ -1812,7 +1812,7 @@ const questions = [
         ],
         "correct": "B",
         "correct_text": "Portar mascarillas en espacios abiertos y cerrados",
-        "justification": "PREGUNTA QUE VENIA EN MI EXAMEN:\nacude a consulta una paciente de 66 años porque durante el ultimo mes ha presentado dolor en la espalda cuando cocina o plancha. indica que\nel dolor se manifiesta predominantemente en el lado izquierda, sin irradiación, ni síntomas hacia miembros inferiores y sin dolor en reposo. entre\nsus antecedentes refiere estar en tx para HTA, y como actividad fisica da paseos de 40min cada tercer dia. en la EF presenta flexion y extension\ncompletas sin reproducir dolor, al igual que las rotaciones laterales ¿que acción se le debe indicar a la paciente para evitar que el dolor\npersista?:\na) incrementar la frecuencia y disminuir la duración de sus paseos. b) realizar ejercicios de relajación progresiva al levantarse y acostarse.\nc) apoyar el pie derecho en un taburete de 15 cm cuando plancha y cocinaco rrecta b."
+        "justification": ""
     },
     {
         "question": "73. En una residencia de adultos mayores se detecta un incremento en la severidad de algunos cuadros de depresión\nen varios residentes que se asocia con el confinamiento y las defunciones de familiares y personas cercanas. Se\nconsulta con el personal de salud del establecimiento sobre las medidas que se den poner en marcha tanto para\natender los casos complicados como para prevenir que en los demás residentes se presenten o se profundicen estos\nsíntomas.\n¿Qué medida favorece la prevención de esta problemática?",
@@ -1826,7 +1826,7 @@ const questions = [
         "justification": ""
     },
     {
-        "question": "74. En un estudio se exploran los efectos de los ácidos grasos omega 3 sobre la depresión y la inflamación crónica en\npacientes en hemodiálisis. 54 pacientes en hemodiálisis de mantenimiento son asignados de manera aleatoria para\ningerir 180 mg de ácido EPA y 120 mg de DHA o bien capsulas de placebo, ambos tres veces al día durante 4 meses.\nSe evalúa el inventario de depresión de Beck y los niveles séricos de proteína c reactiva, interleucina IL -6, IL -10,\nfactor de necrosis tumoral –a, ferritina, hormona paratiroidea intacta, al inicio y final del estudio.\n¿Qué estrategia de muestreo se emplea en el estudio?",
+        "question": "74. En un estudio se exploran los efectos de los ácidos grasos omega 3 sobre la depresión y la inflamación crónica en\npacientes en hemodiálisis. 54 pacientes en hemodiálisis de mantenimiento son asignados de manera aleatoria para\ningerir 180 mg de ácido EPA y 120 mg de DHA o bien capsulas de placebo, ambos tres veces al día durante 4 meses.\nSe evalúa el inventario de depresión de Beck y los niveles séricos de proteína c reactiva, interleucina IL-6, IL-10,\nfactor de necrosis tumoral –a, ferritina, hormona paratiroidea intacta, al inicio y final del estudio.\n¿Qué estrategia de muestreo se emplea en el estudio?",
         "options": [
             "A) Aleatorio simple",
             "B) Estratificado aleatorio",
