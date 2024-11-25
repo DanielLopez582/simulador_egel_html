@@ -24,6 +24,8 @@ function startQuiz() {
 // Muestra la pregunta actual
 function showQuestion() {
     const question = selectedQuestions[currentQuestionIndex];
+
+    document.getElementById("titulo").innerHTML = '<h4>Simulador EGEL v1.1</h4>';
     document.getElementById("question").innerHTML = `<h4>Pregunta ${currentQuestionIndex + 1}/${numQuestions}</h4><h3>${question.question}</h3>`;
     
     const optionsDiv = document.getElementById("options");
@@ -55,7 +57,7 @@ function checkAnswer(selected) {
     // Mensaje de resultado
     const result = isCorrect
         ? "¡Correcto!"
-        : `Incorrecto. La respuesta correcta es ${question.correct}) ${question.correct_text}`;
+        : `Incorrecto. La respuesta correcta es: ${question.correct}) ${question.correct_text}`;
 
     // Muestra el resultado y la justificación
     document.getElementById("justification").innerHTML = `<h3>${result}</h3><h4>Justificación:</h4><p>${question.justification}</p>`;
