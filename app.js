@@ -98,33 +98,3 @@ function nextQuestion() {
         document.getElementById("restartBtn").addEventListener("click", () => location.reload());
     }
 }
-// // Verifica la respuesta
-// function checkAnswer(selected) {
-//     const question = selectedQuestions[currentQuestionIndex];
-//     const correct = question.correct;
-
-//     const result = selected === correct
-//         ? "¡Correcto!"
-//         : `Incorrecto. La respuesta correcta es ${question.correct}) ${question.correct_text}`;
-    
-//     //alert(`${result}\n\nJustificación: ${question.justification}`);
-//     document.getElementById("justification").innerHTML = `<h3>${result}</h3><h4>Justificación:</h4><p>${question.justification}</p>`;
-
-//     // Muestra el botón "Siguiente"
-//     document.getElementById("nextBtn").style.display = "block";
-// }
-
-// // Pasa a la siguiente pregunta
-// function nextQuestion() {
-//     currentQuestionIndex++;
-//     if (currentQuestionIndex < selectedQuestions.length) {
-//         showQuestion();
-//         document.getElementById("nextBtn").style.display = "none";
-//     } else {
-//         alert("¡Has completado el simulador!");
-//         location.reload(); // Reinicia la página
-//     }
-// }
-
-
-

@@ -462,7 +462,7 @@ const questions = [
         "justification": ""
     },
     {
-        "question": "10. De acuerdo con el cuadro clínico del px y la escala de Wagner, el manejo inicial de urgencias indicado es:",
+        "question": "47. Un px de 54 años acude al servicio de Urgencias porque desde hace 3 días presenta una lesión en el pie derecho,\nsin antecedentes traumático. También menciona tener desde hace 10 años DM controlada con 16 UI de insulina al\ndía, dislipidemia con pravastatina, HTA con enalapril, tabaquismo desde los 16 años a razón de fumar 10 cigarros al\ndía y obesidad. En la EF se observa marcha antiálgica con descarga de peso en el talón del pie derecho, lesión tipo\núlcera hiperqueratosica de 1X2 cm en cara plantar, en la base del primer ortejo, con hiperemia perilesional,\nhipertermia, dolor a la manipulación y flexo extensión del primer dedo, con presencia de exudado purulento, fétido,\nde cantidad moderada, pulso femoral 2/2, sin soplo, poplíteo 2/2, pedio 2/2 y tibial posterior 2/2, además de\nmovilidad del dedo conservada, sensibilidad disminuida y prueba de monofilamento Semmes-Weinstein 2/10\nDe acuerdo con el cuadro clínico del px y la escala de Wagner, el manejo inicial de urgencias indicado es:",
         "options": [
             "A) Lavado abundante de la lesión con SS al 0.9 % seguido de medicina física y rehabilitación.",
             "B) Desbridamiento Qx en las zonas con celulitis, abscesos o signos de sepsis y Tx con ATB´s.",
@@ -572,7 +572,7 @@ const questions = [
         "justification": "Junto las medidas de tendencia central, las medidas de dispersión o variabilidad completan información\nsobre la distribución de la variable (indican si los valores de esta están muy dispersos o se concentran\nalrededor de la medida de centralización)"
     },
     {
-        "question": "63. La prueba que se debe utilizar para analizar los datos es el coeficiente de…",
+        "question": "63. Se realiza un estudio de investigación para explorar la asociación entre la autoestima y la depresión en estudiantes\nde Medicina. Participan 300 alumnos de pregrado y la primera variable que se evalúa mediante una escala\nestandarizada que genera una puntuación entre 0 y 30; La depresión se examina con un inventario cuyo rango de\npuntuación va de 0 a 63\nLa prueba que se debe utilizar para analizar los datos es el coeficiente de…",
         "options": [
             "A) Spearman",
             "B) Pearson",
@@ -734,10 +734,10 @@ const questions = [
         ],
         "correct": "B",
         "correct_text": "Uso de MeSH para indexar publicaciones sobre Cáncer de mama",
-        "justification": "Modelo Gail: Toma 5 factores que son la edad, edad de la menarca, edad del primer embarazo a termino, historia\nfamiliar de cáncer de mama en primer grado ( madre, hermana o hija) y biopsia de mama previa con presencia de\natipias, con el fin de calcular el riesgo que predispone a desarrollo de cáncer de mama durante los 5 proximos años\nPREGUNTA.\nOJO ***VENIA UNA PREGUNTA SOBRE EFECTOS ADVERSOS DE LA LAMOTRIGINA Y LOS ANTICONCEPTIVOS ORALES. EN DONDE HAY\nDISMINUCION DE LA EFICACIA DE LOS ANTICONCEPTIVOS\nMeSH: se define como un grupo de término utilizado para la indexación de los términos de búsqueda de revistas en\nPubMed\nManual de medicina basada en evidencia 2020"
+        "justification": "Modelo Gail: Toma 5 factores que son la edad, edad de la menarca, edad del primer embarazo a termino, historia\nfamiliar de cáncer de mama en primer grado ( madre, hermana o hija) y biopsia de mama previa con presencia de\natipias, con el fin de calcular el riesgo que predispone a desarrollo de cáncer de mama durante los 5 proximos años\nMeSH: se define como un grupo de término utilizado para la indexación de los términos de búsqueda de revistas en\nPubMed\nManual de medicina basada en evidencia 2020"
     },
     {
-        "question": "10. De igual manera, el diagnostico de formación de anticuerpos contra el SARS CoV2 después de 7\ndías; la prueba indicada es por medio de ELISA o inmunocromatográfica para la detección de anticuerpos IgM e IgG\npara el virus.\nA partir de estas conclusiones se clasifica como caso sospechoso y…",
+        "question": "81. Un paciente de 45 años acude a urgencias por fiebre y odinofagia de 2 días de evolución. Sin baja saturación de\noxígeno ni linfopenia. Refiere que estuvo en contacto con un familiar que fue diagnosticado con covid-19 y falleció\nhace 1 semana. La prueba RT-PCR mediante exudado faríngeo con resultado negativo para ARN SARS Cov 2; La\npaciente insiste en tener el diagnostico de Covid 19 a pesar del resultado negativo y exige que le inicien un\ntratamiento para la infección. Se decide investigar el caso y explorar la literatura sobre cómo proceder con la\npaciente. Las principales conclusiones que obtiene son las siguientes: para el diagnóstico de virus SARS Cov 2 en\nenfermedad aguda 3-7 días, la prueba de referencia es la RT-PCR. El rendimiento diagnóstico de la RT-PCR es\nsensibilidad 80% y especificidad 99% y se ha observado que con el pasar del tiempo a partir de inicio de los síntomas\nla probabilidad de detectar partículas virales en muestras respiratorias disminuye progresivamente, en especial\ndespués del día 10; De igual manera, el diagnostico de formación de anticuerpos contra el SARS CoV2 después de 7\ndías; la prueba indicada es por medio de ELISA o inmunocromatográfica para la detección de anticuerpos IgM e IgG\npara el virus.\nA partir de estas conclusiones se clasifica como caso sospechoso y…",
         "options": [
             "A) Se indica aislamiento y seguimiento del caso",
             "B) Se solicita prueba serológica para detección de anticuerpos IgM e IgG para el virus SARS CoV2",
@@ -770,7 +770,7 @@ const questions = [
         "justification": ""
     },
     {
-        "question": "19. Se\ningresa y esta de inmediato indica que no desea ser intubada, ya que su madre fue sometida a ese procedimiento y\nfalleció al segundo día.\n¿Qué acción se debe efectuar de acuerdo con lo comentado por la paciente?",
+        "question": "87. Una paciente de 56 años es trasladada al servicio de urgencias debido a neumonía por probable covid19, Se\ningresa y esta de inmediato indica que no desea ser intubada, ya que su madre fue sometida a ese procedimiento y\nfalleció al segundo día.\n¿Qué acción se debe efectuar de acuerdo con lo comentado por la paciente?",
         "options": [
             "A) Informar a los familiares para que faciliten el que cambie de opinión",
             "B) Indicar que el desenlace de su madre no necesariamente le sucedería a ella",
@@ -789,10 +789,10 @@ const questions = [
         ],
         "correct": "C",
         "correct_text": "Solicitar consentimiento de familiares para la transfusión y salvarle la vida",
-        "justification": ""
+        "justification": "1.-El paciente tiene el derecho de solicitar que no se le realice una transfusión si él no lo desea, debido a su\nautonomía de la voluntad y los derechos de la personalidad (vida, salud, libertad) que le son inhe- rentes, siempre\ny cuando se establezca claramente en la carta de consentimiento informado y no se altere el Estado de Derecho,\nen ese caso el médico deberá buscar alternativas de tratamiento para que el paciente no se niegue a recibir los\nservicios\nasistenciales.\n2.-El profesional de la salud está obligado a proteger,promover y restaurar la salud de las personas que así\nlo requieran, brindando todos los medios a su alcance para su cometido.\n3.- Si bien una obligación del médico es respetar la decisión de no ser transfundido de un paciente que es testigo\nde Jehová. En un caso de estado de necesidad, en que el médico deba aplicar una trans- fusión para preservar la\nvida de un paciente, y no haya otra forma para tratarlo, el médico no contrae responsabilidad, ya que al\npresentarse un conflicto\nde preferencia de bienes jurídicos, el estado de necesidad establece que debe ser sacrificado el de menor valor; en\neste caso se debe preservar la vida ante otros bienes jurídicos\nLa relación médico-paciente como rela- ción jurídica debe abarcar los derechos y obligaciones de ambos, en este\ncaso el profesional de la salud además de respetar la autonomía del paciente debe atender ante todo el fin\ngarantizado que es la protección de la salud, lo cual está plasmado en el artículo 4o. constitucional y en apego\na la lex artis de la medicina. Así, la Ley General de Salud obliga a los profesionales de la salud a proteger la vida\nconforme a sus artículos 2, 23 y 32"
     },
     {
-        "question": "3. Posteriormente, menciona al personal de enfermería que además de la levotiroxina, toma a diario AOC y es usuaria\nocasional de vapeador electrónico. Se informa al médico tratante y este solicita Angiotac pulmonar que revela TEP.\nSe le informa la necesidad de iniciar terapia antitrombótica pero la paciente se muestra confundida, rechaza el\ntratamiento y manifiesta desear estudios adicionales que aseguren el diagnostico.\n¿qué obligación de la paciente fue comprometida?",
+        "question": "89. Paciente de 28 años es llevada al servicio de urgencias por su pareja por presentar sincope en 3 ocasiones en las\núltimas 2 horas, ataque al estado general, astenia, adinamia y disnea. Entre sus antecedentes señala foramen oval\npermeable, diagnóstico de hipotiroidismo desde hace 4 años en control y niega tabaquismo. Exploración física se\nencuentra orientada, se registra TA 100/70 mmHg, FC de 122/min, FR 24/min y SatO2 de 74% se realiza ECG que\nrevela taquicardia sinusal, con datos de sobrecarga de ventrículo derecho y presencia de patrón S1Q3T3,\nPosteriormente, menciona al personal de enfermería que además de la levotiroxina, toma a diario AOC y es usuaria\nocasional de vapeador electrónico. Se informa al médico tratante y este solicita Angiotac pulmonar que revela TEP.\nSe le informa la necesidad de iniciar terapia antitrombótica pero la paciente se muestra confundida, rechaza el\ntratamiento y manifiesta desear estudios adicionales que aseguren el diagnostico.\n¿qué obligación de la paciente fue comprometida?",
         "options": [
             "A) Brindar información veraz respecto a los antecedentes",
             "B) Cumplir con las recomendaciones de tratamiento",
@@ -1221,7 +1221,7 @@ const questions = [
         "justification": "Cuidar de personas ancianas y dependientes puede ser un trabajo muy gratificante pero exigente al mismo tiempo,\npudiendo generar estrés del cuidador. Es por eso que el cuidador precisa de grandes dosis de fortaleza para evitar\nesa tensión emocional y física generada por brindar cuidados a personas dependientes.\nEjercicio de relajación con Tai Chi: A pesar de tratarse de un arte marcial en sus orígenes, el Tai Chi actualmente es\nmás empleado como ejercicio para mejorar la salud física y mental de las personas. Consiste en una secuencia de\nmovimientos suaves, lentos y circulares conectados con nuestra respiración."
     },
     {
-        "question": "82. En el reporte de laboratorio destaca glucosa en ayunas de 115 y HbA1c\nde 6.9%, asi como colesterol total de 210, LDL de 167 y trigliceridos de 199\nLa recomendación que se le debe indicar es incorporar una dieta…",
+        "question": "17. Un paciente de 57 años acude a consulta porque hace 5 meses fue diagnosticado con diabetes mellitus y le\nindicaron hipoglucemiantes orales; trae consigo resultados de laboratorio. Entre sus antecedentes heredofamiliares\nse encuentra diabetes, dislipidemia e hipertensión en los hermanos de su padre, quien falleció por infarto a los 61\naños. Menciona caminar poco, aunque ha procurado incrementar la frecuencia. En la exploración fisica se registra\nIMC de 28.9, TA de 130/80 mmHg y FC de 82, En el reporte de laboratorio destaca glucosa en ayunas de 115 y HbA1c\nde 6.9%, asi como colesterol total de 210, LDL de 167 y trigliceridos de 199\nLa recomendación que se le debe indicar es incorporar una dieta…",
         "options": [
             "A) DASH",
             "B) Mediterránea",
@@ -1452,7 +1452,7 @@ const questions = [
         "justification": ""
     },
     {
-        "question": "2. S eindica tx de\nde titulacion de escalada con metformina a 1g en 2 meses y se reiteran indicaciones de alimentacion equilibrada\ncon colaciones y act. Fisica con incremento progresivo ed intensidad y frecuencia. Se le programa cita de control al\nmes, con reporte de HbA1c a los 3 meses.\nla meta terapeutica de manejo farmacologico mediante el nivel de HbA1c es…",
+        "question": "43. Un px de 68 años acude a consulta a consulta por seguimiento por dx reciente de DM. Lleva consigo los\nresultados de lab con nivel de glucemia en ayuno de 202mg/dL, HbA1c de 8,6% y se registra IMC de 29kg/m2; Se\nindica tx de de titulacion de escalada con metformina a 1g en 2 meses y se reiteran indicaciones de alimentación\nequilibrada con colaciones y act. Fisica con incremento progresivo de intensidad y frecuencia. Se le programa cita\nde control al mes, con reporte de HbA1c a los 3 meses.\nla meta terapeutica de manejo farmacologico mediante el nivel de HbA1c es…",
         "options": [
             "A) 6.5%",
             "B) 7.5%",
@@ -1848,7 +1848,7 @@ const questions = [
         "justification": ""
     },
     {
-        "question": "2. Se\nsolicitan estudios de laboratorio y se identifican un nivel de glucosa en ayuno de 102 mg/dL, en prueba de tolerancia\na la glucosa (2 horas post 75 g oral) nivel de 138 mg/dL y HbA1c de 5.6%. se le orienta respecto a la necesidad de\nmodificar su estilo de vida para evitar la progresion de la enfermedad y sus complicaciones\nLa dieta recomendada debe estar integrada por…",
+        "question": "76. Un paciente de 52 años acude a consulta referido de medicina preventiva debido a que se obtuvo un nivel de\nglucemia capilar de 115 mg/dL. No manifiesta sintomas y en la exploracion fisica destaca IMC de 29.2 kg/m2; Se\nsolicitan estudios de laboratorio y se identifican un nivel de glucosa en ayuno de 102 mg/dL, en prueba de tolerancia\na la glucosa (2 horas post 75 g oral) nivel de 138 mg/dL y HbA1c de 5.6%. se le orienta respecto a la necesidad de\nmodificar su estilo de vida para evitar la progresion de la enfermedad y sus complicaciones\nLa dieta recomendada debe estar integrada por…",
         "options": [
             "A) 30% de grasas",
             "B) 40 % de grasas",
