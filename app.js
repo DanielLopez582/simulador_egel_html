@@ -4,6 +4,9 @@ let selectedQuestions = [];
 let currentQuestionIndex = 0;
 let numQuestions = 0;
 
+// Variable para contar el número de aciertos
+let score = 0;
+
 // Inicia el quiz
 function startQuiz() {
     numQuestions = parseInt(document.getElementById("numQuestions").value);
@@ -40,9 +43,6 @@ function showQuestion() {
     document.getElementById("justification").innerHTML = `<h3></h3>`;
 }
 
-// Variable para contar el número de aciertos
-let score = 0;
-
 // Verifica la respuesta
 function checkAnswer(selected) {
     const question = selectedQuestions[currentQuestionIndex];
@@ -67,16 +67,16 @@ function checkAnswer(selected) {
     buttons.forEach(button => {
         button.disabled = true;
 
-        // Cambia el color del botón seleccionado
+        // Cambia el color del botón seleccionado a un color mas oscuro
         if (button.id === selected) {
-            button.style.backgroundColor = "#094585"; // Cambia al color más oscuro
+            button.style.backgroundColor = "#253f59"; //"#094585"; 
         }
     });
     
     // Muestra el botón "Siguiente"
     document.getElementById("nextBtn").style.display = "block";
 
-    // Enfoca el div con la justificación
+    // Scrollea hacia el div de justificacion "lo enfoca"
     document.getElementById("justification").scrollIntoView({ behavior: "smooth" });
 }
 

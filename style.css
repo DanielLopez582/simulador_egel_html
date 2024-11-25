@@ -48,6 +48,10 @@ button:hover {
     cursor: pointer;
 }
 
+#nextBtn:hover {
+    background-color: #911f2e;
+}
+
 label {
     font-size: 16px;
 }
