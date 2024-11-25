@@ -35,6 +35,7 @@ function showQuestion() {
             </button>
         `;
     });
+    document.getElementById("justification").innerHTML = `<h3></h3>`;
 }
 
 // Variable para contar el número de aciertos
