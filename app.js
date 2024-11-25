@@ -32,7 +32,7 @@ function showQuestion() {
     optionsDiv.innerHTML = "";
     question.options.forEach((option, index) => {
         optionsDiv.innerHTML += `
-            <button class="option" onclick="checkAnswer('${String.fromCharCode(65 + index)}')">
+            <button class="option" id="${String.fromCharCode(65 + index)}" onclick="checkAnswer('${String.fromCharCode(65 + index)}')">
                 ${option}
             </button>
         `;
@@ -62,8 +62,22 @@ function checkAnswer(selected) {
     // Muestra el resultado y la justificación
     document.getElementById("justification").innerHTML = `<h3>${result}</h3><h4>Justificación:</h4><p>${question.justification}</p>`;
 
+    // Bloquea los botones de las opciones
+    const buttons = document.querySelectorAll("#options button");
+    buttons.forEach(button => {
+        button.disabled = true;
+
+        // Cambia el color del botón seleccionado
+        if (button.id === selected) {
+            button.style.backgroundColor = "#094585"; // Cambia al color más oscuro
+        }
+    });
+    
     // Muestra el botón "Siguiente"
     document.getElementById("nextBtn").style.display = "block";
+
+    // Enfoca el div con la justificación
+    document.getElementById("justification").scrollIntoView({ behavior: "smooth" });
 }
 
 // Pasa a la siguiente pregunta o muestra el puntaje final
