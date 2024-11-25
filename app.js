@@ -21,7 +21,9 @@ function startQuiz() {
 
     document.getElementById("start").style.display = "none";
     document.getElementById("quiz").style.display = "block";
-    document.getElementById("titulo").innerHTML = '<h4>📚 Simulador EGEL v1.1</h4>';
+    document.getElementById("titulo").innerHTML = '<h4>📚 Simulador EGEL v1.2</h4>';
+    //Esto deberia poder hacerse mejor
+    document.getElementById("titulo").addEventListener("click", () => location.reload());
     showQuestion();
 }
 
@@ -90,8 +92,8 @@ function nextQuestion() {
         // Muestra el puntaje final
         document.getElementById("quiz").innerHTML = `
             <h2>¡Simulación completada! ✅</h2>
-            <p>Tu puntuación: <strong>${score} / ${selectedQuestions.length}</strong>  (${Math.round((score/selectedQuestions.length)*100)}%)</p>
-            <button id="restartBtn">🔁 Realizar nueva simulación</button>
+            <p>Tu puntuación:   <strong>${score} / ${selectedQuestions.length}</strong>  (${Math.round((score/selectedQuestions.length)*100)}%)</p>
+            <button id="restartBtn">🔄 Realizar nueva simulación</button>
         `;
 
         // Agrega funcionalidad al botón de reinicio
