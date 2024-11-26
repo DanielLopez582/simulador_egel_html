@@ -22,7 +22,18 @@ const questions = [
         "justification": "Valoración Geronto-Geriátrica Integral en el Adulto Mayor Ambulatorio GPC: En los adultos mayores la disminución\nde la agudeza visual y auditiva tiene repercusiones importantes, pues condiciona aislamiento, comprometiendo la\nsocialización, su independencia funcional y calidad de vida.\nLa disminución en la agudeza visual es un factor de riesgo para caídas, depresión, aislamiento y dependencia\nfuncional.\nAumento del hueso esponjoso del oído medio : Entre un 0.3 a 0.4% de la población general la padecen, generalmente\nocurre entre los 15 y 45 años y su presencia está asociada a antecedentes familiares. Una persona con otoesclerosis\npresenta un hueso esponjoso anormal que crece en el oído medio, lo que impide que ocurran las vibraciones normales\nde los huesos del oído que son necesarias para escuchar.\nhttp://www.cenetec.salud.gob.mx/descargas/gpc/CatalogoMaestro/537_GPC_Otosclerosis/GER_Otoscleoris.p...\nhttp://www.nlm.nih.gov/medlineplus/spanish/ency/article/001036.htm"
     },
     {
-        "question": "4. un paciente de 55 años acude a consulta de control debido a que tiene antecedente de DM de 5 años de evolución.\nEn la exploración física se registran signos normales IMC 31 kg/m y perímetro de cintura de 102 cm, Al preguntarle\nsobre ajustes a su estilo de vida, comenta que no ha logrado incorporar actividad física constante a su rutina ni reducir\nel número de veces que come en la calle debido a que trabaja como conductor por aplicación por casi 12 horas al día\ny llega a su casa en la madrugada hasta que logra cubrir la suma semanal requerida por parte del dueño del vehículo,\nindica que a partir de su cita de control anterior intento caminar por 30 min, junto con su esposa durante las mañanas\nantes de iniciar sus viajes, pero los asaltaron ceca de su domicilio y lo despojaron de su teléfono celular. Al ser parte\nde sus horas para subsanar la perdida. Refiere que la situación afecta incluso su dinámica familiar, pues su esposa\nmanifiesta querer mudarse al sentirse muy insegura a partir del asalto.\n¿Qué aspecto del contexto social del paciente afecta su estado de salud?",
+        "question": "3. Una paciente de 68 años presenta un cuadro de tos con expectoración blanquecina y ortopnea, menciona que el\ndía de hoy se agudizaron los síntomas y presenta disnea. Reside en una comunidad rural y vive con cuatro\nfamiliares más; su casa habitación cuenta con dos cuartos, piso de tierra, techo de lámina, cocina rústica de leña y\nfosa séptica; indica que tiene aves de corral para autoconsumo. En la exploración física se registra TA de 120/80\nmmHg, FC de 78/min, FR de 22/min, T de 36.9°C y SatO2 de 98%.\n¿Cuál es el factor del entorno de la paciente que se asocia con sus problemas de salud?",
+        "options": [
+            "A) Exposición a biomasa",
+            "B) Hacinamiento",
+            "C) Zoonosis"
+        ],
+        "correct": "A",
+        "correct_text": "Exposición a biomasa",
+        "justification": "Diagnóstico y Tratamiento de la Enfermedad Pulmonar Obstructiva Crónica GPC: Los tres síntomas cardinales de EPOC\nson: disnea, tos crónica, y producción de esputo\nEl factor de riesgo más frecuente es el tabaquismo. En México como en otros países, la exposición al humo de leña es\ntambién causa de EPOC.\nDe acuerdo con un estudio europeo muy grande de pacientes con EPOC los síntomas más comúnmente reportados\nson los siguientes:\nDisnea: Reportada por más del 70% de los pacientes.\nTípicamente, empeora con el ejercicio.\nTos crónica: Reportada por cerca del 60% de los pacientes.\nComúnmente identificada como \"tos de fumador\" por los pacientes.\nProducción de moco: Reportada por al menos el 63% de los pacientes.\nPuede ser indicativa de bronquitis crónica si dura más de 3 meses en dos años\nconsecutivos. (Kessler R, 2011)"
+    },
+    {
+        "question": "3. un paciente de 55 años acude a consulta de control debido a que tiene antecedente de DM de 5 años de evolución.\nEn la exploración física se registran signos normales IMC 31 kg/m y perímetro de cintura de 102 cm, Al preguntarle\nsobre ajustes a su estilo de vida, comenta que no ha logrado incorporar actividad física constante a su rutina ni reducir\nel número de veces que come en la calle debido a que trabaja como conductor por aplicación por casi 12 horas al día\ny llega a su casa en la madrugada hasta que logra cubrir la suma semanal requerida por parte del dueño del vehículo,\nindica que a partir de su cita de control anterior intento caminar por 30 min, junto con su esposa durante las mañanas\nantes de iniciar sus viajes, pero los asaltaron ceca de su domicilio y lo despojaron de su teléfono celular. Al ser parte\nde sus horas para subsanar la perdida. Refiere que la situación afecta incluso su dinámica familiar, pues su esposa\nmanifiesta querer mudarse al sentirse muy insegura a partir del asalto.\n¿Qué aspecto del contexto social del paciente afecta su estado de salud?",
         "options": [
             "A) Precarización laboral",
             "B) Ambiente familiar",
@@ -33,7 +44,7 @@ const questions = [
         "justification": "IMSS definición: Estrés Laboral (imss.gob.mx)\nEstrés laboral: tipo de estrés donde la creciente presión en el entorno laboral puede provocar la saturación física\ny/omental del trabajador, generando diversas consecuencias que no solo afectan la salud, sino también su entorno\nmás próximo ya que genera un desequilibrio entre lo laboral y lo personal"
     },
     {
-        "question": "5. un paciente de 58 años acude al centro de salud por presentar tos productiva de 1 mes de evolución y perdida\nponderal de peso. Su ocupación es albañil desde los 14 años y, aunque niega tabaquismo, menciona que ha llegado\na fumar de manera ocasional porque todos sus compañeros fuman cuando salen a comer. No presenta\nantecedentes patológicos de importancia; en la exploración física se registra IMC 19 y se detecta dolor torácico\npunzante e intermitente que se exacerba con ciertos movimientos de intensidad punzante 5/10 EVA en hemitórax\nderecho y disnea de medianos esfuerzos.\nEl factor de riesgo del ambiente ocupacional del paciente que se asocia con el desarrollo de su enfermedad es la\nexposición a…",
+        "question": "4. un paciente de 58 años acude al centro de salud por presentar tos productiva de 1 mes de evolución y perdida\nponderal de peso. Su ocupación es albañil desde los 14 años y, aunque niega tabaquismo, menciona que ha llegado\na fumar de manera ocasional porque todos sus compañeros fuman cuando salen a comer. No presenta\nantecedentes patológicos de importancia; en la exploración física se registra IMC 19 y se detecta dolor torácico\npunzante e intermitente que se exacerba con ciertos movimientos de intensidad punzante 5/10 EVA en hemitórax\nderecho y disnea de medianos esfuerzos.\nEl factor de riesgo del ambiente ocupacional del paciente que se asocia con el desarrollo de su enfermedad es la\nexposición a…",
         "options": [
             "A) Humo de tabaco",
             "B) Polvo de cuarzo",
@@ -44,7 +55,7 @@ const questions = [
         "justification": "GPC DX y TX de neumoconiosis por sílice: 382GER (imss.gob.mx) + Asociación Gallega de Afectados por la Silicosis\nLa silicosis puede ocurrir en muchas industrias… albañilería, cerámica… aunque los niveles de exposición a polvo son\ngeneralmente más bajos en la superficie, la silicosis se produce también en ese entorno, en particular perforadores y\nsus asistentes. el cuarzo es un tipo de sílice. El tiempo de exposición para la silicosis simple va de 15 a 30 años, la\nsilicosis crónica se desarrolla 10 a 30 años posterior al inicio de la exposición, en la mayoría de los casos se trata de\nuna silicosis simple. Las manifestaciones clínicas de la silicosis crónica y acelerada son variables, desde asintomáticas\ny presentar anormalidades radiológicas hasta presentar tos crónica y disnea de esfuerzo cada vez más frecuente,\ndificultad respiratoria, pérdida de peso, dolores en el pecho.\nSe caracteriza por una fibrosis pulmonar progresiva debida a la exposición al dióxido de silicio (silicio) en sus formas\ncristalina (cuarzo) y criptocristalina; suele presentarse entre los mineroscortadores de piedra y trabajadores de las\nindustrias abrasivas, del ladrillo, del cristal, cemento y canteras de granito.\nhttp://www.cenetec-difusion.com/CMGPC/GPC-IMSS-037-21/ER.pdf"
     },
     {
-        "question": "6. un paciente de 47 años asiente a consulta luego de haber sido diagnosticado con diabetes mellitus mientras\nvisitaba a su hija en otra entidad, presento molestias y luego de la valoración médica le indicaron manejo con\nmetformina, así como ajustes a su dieta e incremento de ejercicio. El paciente menciona que al recibir el diagnostico\nse sintió muy preocupado de presentar complicaciones, refiere que a su madre le amputaron una pierna por diabetes\ncontrolada. En el interrogatorio menciona que en los últimos días ha tenido mareo, nausea y debilidad muscular.\nRespecto a la adherencia terapéutica, refiere tomar la metformina diaria en la mañana, así como caminar por 40 min\ndiarios y seguir una dieta cetogénica que le recomendó su hijo. Se realiza toma de glucemia capilar y se registra 67\nmg/dl.\n¿Cuál es el aspecto que derivo en el cuadro hipoglucémico?",
+        "question": "5. un paciente de 47 años asiente a consulta luego de haber sido diagnosticado con diabetes mellitus mientras\nvisitaba a su hija en otra entidad, presento molestias y luego de la valoración médica le indicaron manejo con\nmetformina, así como ajustes a su dieta e incremento de ejercicio. El paciente menciona que al recibir el diagnostico\nse sintió muy preocupado de presentar complicaciones, refiere que a su madre le amputaron una pierna por diabetes\ncontrolada. En el interrogatorio menciona que en los últimos días ha tenido mareo, nausea y debilidad muscular.\nRespecto a la adherencia terapéutica, refiere tomar la metformina diaria en la mañana, así como caminar por 40 min\ndiarios y seguir una dieta cetogénica que le recomendó su hijo. Se realiza toma de glucemia capilar y se registra 67\nmg/dl.\n¿Cuál es el aspecto que derivo en el cuadro hipoglucémico?",
         "options": [
             "A) Hora de toma de metformina",
             "B) Actividad física",
@@ -55,7 +66,7 @@ const questions = [
         "justification": "GPC prescripción de ejercicio físico en px con DM, dieto terapia y alimentos para px con DM. Microsoft Word - 751GER\n(imss.gob.mx) ER.pdf (cenetec-difusion.com)\nSe recomienda mantener un nivel alto de actividad física, debe ser realizado 5 días a la semana, de moderado a\nvigoroso, durante 30 min como mínimo, la dieta recomendada en pacientes adultos con DM 2 recién diagnosticada\nes la dieta mediterránea, con un contenido alto en proteínas y bajo en carbohidratos"
     },
     {
-        "question": "7. en una comunidad se registra un aumento significativo de casos de neumonía por el incremento de contagio de\ncovid-19 en adultos mayores. Este grupo tiene un alto índice de comorbilidades como diabetes mellitus, hipertensión\ny obesidad. Adicionalmente en el centro de salud de la comunidad se reporta falta de medicamentos antivirales\ncontra la influenza y que en este grupo de edad solo 30% cuenta con vacuna contra neumococo\n¿Cuál es el problema de salud en la comunidad que impacta en el incremento en los casos de neumonía?",
+        "question": "6. en una comunidad se registra un aumento significativo de casos de neumonía por el incremento de contagio de\ncovid-19 en adultos mayores. Este grupo tiene un alto índice de comorbilidades como diabetes mellitus, hipertensión\ny obesidad. Adicionalmente en el centro de salud de la comunidad se reporta falta de medicamentos antivirales\ncontra la influenza y que en este grupo de edad solo 30% cuenta con vacuna contra neumococo\n¿Cuál es el problema de salud en la comunidad que impacta en el incremento en los casos de neumonía?",
         "options": [
             "A) Desabasto de tratamiento antiviral contra la influenza",
             "B) Implementación laxa de medidas sanitarias entre la población",
@@ -66,7 +77,7 @@ const questions = [
         "justification": "Existen ciertos factores que aumentan la posibilidad de contraer neumonía: En la población adulta, ser mayor de 65\naños, tabaquismo, alcoholismo, padecer enfermedades crónicas, no vacunarse contra neumococo y exposición al\nhumo de tabaco y de leña.\nLas personas mayores de 65 años deben vacunarse cada 5 años. También, es recomendable aplicar la vacuna contra\nla influenza estacional y tener una alimentación adecuada. https://www.insp.mx/avisos/5121-dia-mundial-\nneumonia-invierno.html"
     },
     {
-        "question": "8. una familia de una comunidad rural acude a consulta porque sus dos hijos presentaron con un par de días de\ndiferencia, pero de manera súbita, odinofagia, disfagia, dolor abdominal y evacuaciones diarreicas. Durante la\nexploración física, en uno se registra fiebre de 38º C y en ambos se observa ictericia. La madre menciona que su\nvivienda es de adobe con dos cuartos y en ella viven con los padres de su esposo, tienen algunas aves de corral y la\nfuente de agua en la comunidad es un pozo común\n¿Qué aspecto del contexto de los pacientes se asocia con su padecimiento?",
+        "question": "7. una familia de una comunidad rural acude a consulta porque sus dos hijos presentaron con un par de días de\ndiferencia, pero de manera súbita, odinofagia, disfagia, dolor abdominal y evacuaciones diarreicas. Durante la\nexploración física, en uno se registra fiebre de 38º C y en ambos se observa ictericia. La madre menciona que su\nvivienda es de adobe con dos cuartos y en ella viven con los padres de su esposo, tienen algunas aves de corral y la\nfuente de agua en la comunidad es un pozo común\n¿Qué aspecto del contexto de los pacientes se asocia con su padecimiento?",
         "options": [
             "A) Vivienda con hacinamiento",
             "B) Fuente de agua potable",
@@ -77,7 +88,7 @@ const questions = [
         "justification": "HEPATITIS El VHA se transmite principalmente por vía fecal-oral; es decir cuando una persona no infectada ingiere\nagua o alimentos contaminados por heces de una persona infectada WHO\nPeríodo Pre-ictérico: Éste tiene una duración variable, desde algunos días hasta algunas semanas (la duración de 4 a\n5 días es la más habitual) y se caracteriza por la presencia de compromiso del estado general, astenia, síntomas\ngastrointestinales como anorexia, náuseas, dolor abdominal (epigástrico y de hipocondrio derecho), o síntomas\nrespiratorios, como coriza, odinofagia y tos, y a veces fiebre o diarrea"
     },
     {
-        "question": "9. acude a consulta un paciente de 53 años porque manifiesta que desde hace 1 hora inicio un dolor en la región\nprecordial que ha ido en aumento y se irradia hacia el brazo izquierdo. Menciona que la noche anterior presento\ndolor en epigastrio por lo que ingirió antiácido. En la exploración física se observa que es de constitución robusta\ncon facies de angustia, diaforético, con ligera palidez de tegumentos y ligera hidratación de mucosas. Se sospecha\nde síndrome coronario agudo.\n¿Qué manifestación clínica orienta a dicho diagnostico?",
+        "question": "8. acude a consulta un paciente de 53 años porque manifiesta que desde hace 1 hora inicio un dolor en la región\nprecordial que ha ido en aumento y se irradia hacia el brazo izquierdo. Menciona que la noche anterior presento\ndolor en epigastrio por lo que ingirió antiácido. En la exploración física se observa que es de constitución robusta\ncon facies de angustia, diaforético, con ligera palidez de tegumentos y ligera hidratación de mucosas. Se sospecha\nde síndrome coronario agudo.\n¿Qué manifestación clínica orienta a dicho diagnostico?",
         "options": [
             "A) Irradiación del dolor",
             "B) Dolor en epigastrio",
@@ -88,7 +99,7 @@ const questions = [
         "justification": "GPC IAM ER CENETEC (cenetec-difusion.com)\nLa sensación de presión, malestar y dolor en el pecho demostraron la mayor sensibilidad para el SCA. El dolor en el\nhombro y el brazo pueden ser la clave en síntomas que mejoran la predicción clínica en especial en mujeres.\nDiagnóstico: Es muy importante precisar bien las características del dolor torácico. Éste suele ser de localización\ncentrotorácico o precordial, continuo, con irradiación (cuello, mandíbula, hombros, brazos o interescapular) o sin\nella. Suele ser opresivo y de duración variable, de minutos a horas"
     },
     {
-        "question": "10. un paciente de 68 años acude a consulta por presentar nausea acompañada de vómitos ocasionales, así como\nsaciedad temprana de 1 sem de evolución, informa sobre ataque al estado general y niega pérdida de peso. Entre\nsus antecedentes se identifica grupo sanguíneo A+ y refiere tabaquismo desde los 20 años a razón de 4 cigarros al\ndía, ingesta de alcohol, una copa de vino diaria, alimentación rica en carbohidratos, frutas y verduras, así como\nconsumo frecuente de alimentos encurtidos y ahumados. Además, ingiere complementos de vitamina c y e. indica\nque hace 1 año le diagnosticaron infección por helicobacter pylori, sin tratamiento, así como hipertensión arterial\ndesde hace 15 años, controlada con valsartan y ácido acetilsalicílico. En la exploración física solo destaca palidez de\ntegumentos, linfadenopatias cervicales y supraclaviculares izquierdas.\nDe acuerdo con la sospecha diagnostica, ¿Qué antecedente son de importancia para el padecimiento?",
+        "question": "9. un paciente de 68 años acude a consulta por presentar nausea acompañada de vómitos ocasionales, así como\nsaciedad temprana de 1 sem de evolución, informa sobre ataque al estado general y niega pérdida de peso. Entre\nsus antecedentes se identifica grupo sanguíneo A+ y refiere tabaquismo desde los 20 años a razón de 4 cigarros al\ndía, ingesta de alcohol, una copa de vino diaria, alimentación rica en carbohidratos, frutas y verduras, así como\nconsumo frecuente de alimentos encurtidos y ahumados. Además, ingiere complementos de vitamina c y e. indica\nque hace 1 año le diagnosticaron infección por helicobacter pylori, sin tratamiento, así como hipertensión arterial\ndesde hace 15 años, controlada con valsartan y ácido acetilsalicílico. En la exploración física solo destaca palidez de\ntegumentos, linfadenopatias cervicales y supraclaviculares izquierdas.\nDe acuerdo con la sospecha diagnostica, ¿Qué antecedente son de importancia para el padecimiento?",
         "options": [
             "A) Tipo de sangre y consumo de alimentos encurtidos y ahumados",
             "B) Alimentación rica en carbohidratos y consumo de AAS",
@@ -99,7 +110,7 @@ const questions = [
         "justification": "GPC Dx y Tx del adenocarcinoma gástrico en pacientes adultos: Factores de riesgo para carcinoma gástrico: tabaco\ndosis dependiente, infección por helicobacter pylori aumenta el doble el riesgo, consumo de alimentos ahumados.\nEn etapas tempranas es asintomático, en etapas avanzadas puede presentar nauseas, saciedad temprana, vómitos\npersistentes, sangrado, anemia. Datos predictores para ca gástrico: disfagia, pérdida de peso, edad +65 años"
     },
     {
-        "question": "11. Un paciente de 65 años es atendido por cuadro infeccioso pulmonar agudo, con fiebre tos productiva con\nexpectoración purulenta, disnea y dolor torácico refiere antecedentes de tabaquismo a razón de un cigarro a la\nsemana desde los 20 años e hipotiroidismo subclínico. En la exploración física se registra IMC de 25 kg/m2, Se escucha\nmatidez a la percusión y se oculta broncofonía y crepitaciones subescapulares.\n¿Cuál es el antecedente epidemiológico relacionado con la enfermedad del paciente?",
+        "question": "10. Un paciente de 65 años es atendido por cuadro infeccioso pulmonar agudo, con fiebre tos productiva con\nexpectoración purulenta, disnea y dolor torácico refiere antecedentes de tabaquismo a razón de un cigarro a la\nsemana desde los 20 años e hipotiroidismo subclínico. En la exploración física se registra IMC de 25 kg/m2, Se escucha\nmatidez a la percusión y se oculta broncofonía y crepitaciones subescapulares.\n¿Cuál es el antecedente epidemiológico relacionado con la enfermedad del paciente?",
         "options": [
             "A) Edad.",
             "B) Tabaquismo.",
@@ -110,7 +121,7 @@ const questions = [
         "justification": "GRRP PARA NEUMONIA: Signos y síntomas sugestivos de NAC* Fiebre, Disnea, Dolor torácico, Taquipnea,\nTaquicardia, Tos con esputo, Opacidad a la percusión, Sonidos respiratorios bronquiales, Estertores, Frémito vocal\naumentado.\nCURB 65: Confusión (AMT < 8), BUN > 20, FR > 30 rpm, TAS < 90 o TAD < 60, Edad = o > 65 años"
     },
     {
-        "question": "12. Un paciente de 67 años acude al servicio de urgencias por presentar un cuadro de 12 horas devolución\ncaracterizado por dolor en epigastrio de tipo transitivo, de inicio súbito intenso y que se irradia hacia el abdomen\nbajo, Presenta antecedentes de tabaquismo positivo desde los 20 años a razón de seis cigarros diarios y tiene\ndiagnóstico de artritis reumatoide, pero sin apego al tratamiento. En la exploración física se registra T a mayúscula\nde 125/58 mmHg. FC de 120/min y T de 37° C. Se encuentra consciente, aunque desorientado, con malestar general,\nruidos cardiacos rítmicos, abdomen plano, peristalsis ausente, abdomen en madera, dolor a la palpación superficial\ny profunda con datos de irritación peritoneal y al tacto rectal refiere dolor.\n¿Qué dato se debe buscar por su relevancia para el padecimiento del paciente?",
+        "question": "11. Un paciente de 67 años acude al servicio de urgencias por presentar un cuadro de 12 horas devolución\ncaracterizado por dolor en epigastrio de tipo transitivo, de inicio súbito intenso y que se irradia hacia el abdomen\nbajo, Presenta antecedentes de tabaquismo positivo desde los 20 años a razón de seis cigarros diarios y tiene\ndiagnóstico de artritis reumatoide, pero sin apego al tratamiento. En la exploración física se registra T a mayúscula\nde 125/58 mmHg. FC de 120/min y T de 37° C. Se encuentra consciente, aunque desorientado, con malestar general,\nruidos cardiacos rítmicos, abdomen plano, peristalsis ausente, abdomen en madera, dolor a la palpación superficial\ny profunda con datos de irritación peritoneal y al tacto rectal refiere dolor.\n¿Qué dato se debe buscar por su relevancia para el padecimiento del paciente?",
         "options": [
             "A) Dieta alta en grasa.",
             "B) Palidez de tegumentos.",
@@ -121,7 +132,7 @@ const questions = [
         "justification": "GPC DE ULCERA PEPTICA:\nFactores de riesgos: la edad mayor a 60 años por h. pylori y el uso de AINES.\nDATOS CLINICOS PARA SOSPECHAR PERFORACION DE ULCERA PEPTICA: Antecedente de enfermedad acido-péptica y\npresencia de factores de riesgo asociados: Dolor localizado en abdomen alto, tipo transfictivo, intenso de inicio\nsúbito o a hombros, Datos de irritación peritoneal."
     },
     {
-        "question": "13. Un paciente de 8 años fue llevado a consulta por presentar fiebre no cuantificada intermitente en el último mes.\nLa madre refiere que inicia de manera súbita y se acompaña de escalofríos, y que la menor presenta astenia y\nadinamia. En la exploración física se encuentra en mal estado general, se registra TA de 110/75 mmHg, FC de 90/min,\nFR de 23/min y T de 39.5 grados centígrados. Se registran datos de artritis migratoria que afecta rodillas y codos,\ndisnea de medianos esfuerzos y se ausculta soplo holosistólico apical de tono alto en área precordial, con intensidad\ngrado III-IV e irradia hacia la axila; el resto de la exploración es normal.\n¿Cuál es la interpretación de los hallazgos clínicos de la menor?",
+        "question": "12. Un paciente de 8 años fue llevado a consulta por presentar fiebre no cuantificada intermitente en el último mes.\nLa madre refiere que inicia de manera súbita y se acompaña de escalofríos, y que la menor presenta astenia y\nadinamia. En la exploración física se encuentra en mal estado general, se registra TA de 110/75 mmHg, FC de 90/min,\nFR de 23/min y T de 39.5 grados centígrados. Se registran datos de artritis migratoria que afecta rodillas y codos,\ndisnea de medianos esfuerzos y se ausculta soplo holosistólico apical de tono alto en área precordial, con intensidad\ngrado III-IV e irradia hacia la axila; el resto de la exploración es normal.\n¿Cuál es la interpretación de los hallazgos clínicos de la menor?",
         "options": [
             "A) Insuficiencia aórtica",
             "B) Mixoma auricular",
@@ -132,7 +143,7 @@ const questions = [
         "justification": "Tiene síntomas de fiebre reumática que afecta principalmente a la válvula mitral, el auscultar un soplo sistólico en\nfoco mitral nos indica insuficiencia mitral\nhttp://dcs.uqroo.mx/paginas/guiasclinicas/gpc/docs/IMSS-235-09-RR.pdf\nLa insuficiencia mitral se detecta por la presencia de un ruido disminuido, soplo holodiastólico y desplazamiento de\nla punta del corazón hacia abajo y a la izquierda por crecimiento del ventrículo izquierdo, el 2P también está\nreforzado y traduce elevación de la presión arterial pulmonar"
     },
     {
-        "question": "14. Un paciente de 65 años acude a consulta externa por presentar edema en el lado derecho del rostro que se ha\nhecho más evidente en las últimas 2 semanas. Refiere, además presentar tos crónica y pérdida de peso involuntaria,\nambas en el último mes. Entre sus antecedentes menciona tabaquismo positivo desde hace 40 años. Durante el\ninterrogatorio se detecta disfonía leve y en la exploración física se observa edema y flebectasias en rostro, cuello y\nmiembro torácico derecho.\nDe acuerdo con el cuadro clínico, se integra síndrome de…",
+        "question": "13. Un paciente de 65 años acude a consulta externa por presentar edema en el lado derecho del rostro que se ha\nhecho más evidente en las últimas 2 semanas. Refiere, además presentar tos crónica y pérdida de peso involuntaria,\nambas en el último mes. Entre sus antecedentes menciona tabaquismo positivo desde hace 40 años. Durante el\ninterrogatorio se detecta disfonía leve y en la exploración física se observa edema y flebectasias en rostro, cuello y\nmiembro torácico derecho.\nDe acuerdo con el cuadro clínico, se integra síndrome de…",
         "options": [
             "A) Vena cava inferior",
             "B) Vena cava superior",
@@ -143,7 +154,7 @@ const questions = [
         "justification": "Sospechar la existencia de un tumor torácico maligno debe ser el punto de partida para iniciar el estudio del\npaciente cuando el síndrome de la vena cava superior es la primera manifestación clínica. De particular importancia\nes la investigación del hábito tabáquico y exposición laboral a carcinógenos inhalados. La tríada clínica clásica\nincluye distensión de venas yugulares externas, edema en pelerina y facies abotagadas.\n(síndrome de ) oclusión de las venas hepáticas y/o vena cava inferior\nAlgunas personas no presentan síntomas, pero otras experimentan cansancio, dolor abdominal, náuseas e ictericia.\nSe acumula líquido en el abdomen, el bazo aumenta de tamaño y algunas veces se produce una hemorragia grave\nen el esófago."
     },
     {
-        "question": "15. Una paciente de 34 años acude a consulta por presentar fiebre y dolor abdominal en el costado derecho de 1\nsemana de evolución. Durante el interrogatorio indica que ha presentado nausea y vomito, coluria, hiporexia, prurito,\nastenia y adinamia. En la exploración física se registran signos vitales normales, se observa ataque al estado general,\nhuellas de rascado, ictericia en conjuntivas ++, abdomen globoso, dolor a la palpación profunda en el hipocondrio\nderecho y hepatomegalia.\n¿Cuál es la interpretación de los hallazgos clínicos?",
+        "question": "14. Una paciente de 34 años acude a consulta por presentar fiebre y dolor abdominal en el costado derecho de 1\nsemana de evolución. Durante el interrogatorio indica que ha presentado nausea y vomito, coluria, hiporexia, prurito,\nastenia y adinamia. En la exploración física se registran signos vitales normales, se observa ataque al estado general,\nhuellas de rascado, ictericia en conjuntivas ++, abdomen globoso, dolor a la palpación profunda en el hipocondrio\nderecho y hepatomegalia.\n¿Cuál es la interpretación de los hallazgos clínicos?",
         "options": [
             "A) Hepatitis A",
             "B) Colangitis aguda",
@@ -154,7 +165,7 @@ const questions = [
         "justification": "Hepatitis A: La sintomatología inicial incluye, malestar general (80%), náusea (69%), vómito (47%), anorexia, fiebre\n(76%) y (76%) y dolor en cuadrante superior derecho del abdomen (37%). De 3 a 7 días después, el paciente\ndesarrolla coluria, colia, ictericia y prurito .\nLos síntomas casi encajan con cualquiera de las 3, pero por la falta de antecedentes sería rara lo colangitis y el\nabsceso, además de que se registran los signos vitales normales y sigue la historia de la hepatitis\nhttp://www.cenetec-difusion.com/CMGPC/SS-214-09/RR.pdf"
     },
     {
-        "question": "16. Un lactante de 13 meses es llevado a consulta por presentar fiebre intermitente de 38°C en las últimas 24 horas\nque cede con antipiréticos, además presenta rinorrea hialina abundante y tos seca progresiva en accesos. En la\nexploración física se encuentra hidratado, afebril, aunque con dificultad respiratoria manifestada por tiraje\nintercostal leve y retracción xifoidea también leve, se auscultan estertores crepitantes finos y sibilancias al final de la\nespiración, por lo que se sospecha de bronquiolitis\n¿Cuál es el diagnóstico diferencial del cuadro?",
+        "question": "15. Un lactante de 13 meses es llevado a consulta por presentar fiebre intermitente de 38°C en las últimas 24 horas\nque cede con antipiréticos, además presenta rinorrea hialina abundante y tos seca progresiva en accesos. En la\nexploración física se encuentra hidratado, afebril, aunque con dificultad respiratoria manifestada por tiraje\nintercostal leve y retracción xifoidea también leve, se auscultan estertores crepitantes finos y sibilancias al final de la\nespiración, por lo que se sospecha de bronquiolitis\n¿Cuál es el diagnóstico diferencial del cuadro?",
         "options": [
             "A) Neumonía",
             "B) Laringotraqueobronquitis",
@@ -165,7 +176,7 @@ const questions = [
         "justification": "Los diagnósticos diferenciales son: http://www.cenetec-difusion.com/CMGPC/IMSS-032-08/ER.pdf"
     },
     {
-        "question": "17. Una paciente de 25 años acude a consulta por dolor abdominal de inicio súbito que irradia hacia la espalda. Indica\nque desde hace 10 días presenta disuria y polaquiuria; hace 2 días se presentó fiebre que disminuyo con antipiréticos\ny hoy se agregó dolor. En la exploración física se observan facies de dolor y ligera deshidratación de mucosas, se\nregistra taquipnea y abdomen blando y doloroso a la palpación profunda a nivel de hipogastrio, así como signo de\nGiordano positivo y peristalsis normal, por lo que se sospecha de pielonefritis.\n¿Qué diagnostico diferencial corresponde a los datos clínicos presentados?",
+        "question": "16. Una paciente de 25 años acude a consulta por dolor abdominal de inicio súbito que irradia hacia la espalda. Indica\nque desde hace 10 días presenta disuria y polaquiuria; hace 2 días se presentó fiebre que disminuyo con antipiréticos\ny hoy se agregó dolor. En la exploración física se observan facies de dolor y ligera deshidratación de mucosas, se\nregistra taquipnea y abdomen blando y doloroso a la palpación profunda a nivel de hipogastrio, así como signo de\nGiordano positivo y peristalsis normal, por lo que se sospecha de pielonefritis.\n¿Qué diagnostico diferencial corresponde a los datos clínicos presentados?",
         "options": [
             "A) Litiasis renal",
             "B) Pancreatitis",
@@ -176,7 +187,7 @@ const questions = [
         "justification": "La presentación clásica de un cólico renal por un cálculo obstructivo es: Dolor de aparición súbita.Dolor severo y\nagudo localizado en el flanco,Dolor que irradia a parte inferior del abdomen, ingle o genitales. Frecuentemente se\nacompaña de náusea y vómito. La urgencia miccional, con ba jos volúmenes, es muy común con litos ureterales\ndistales. Se debe realizar diagnóstico diferencial con las siguientesentidades:"
     },
     {
-        "question": "18. Una paciente de 63 años acude a consulta por presentar astenia, adinamia y disnea de esfuerzo. Entre sus\nantecedentes indica historia de osteoartrosis, consumo crónico de AINE y evacuaciones negras. Durante la\nexploración física se registra TA de 100/60 mmHg. FC de 90/min y FR de 21/min; se observa palidez de tegumentos\ny no se presenta esplenomegalia ni petequias.\nAdemás de una biometría hemática, ¿Qué estudios se deben solicitar ante la sospecha de anemia?",
+        "question": "17. Una paciente de 63 años acude a consulta por presentar astenia, adinamia y disnea de esfuerzo. Entre sus\nantecedentes indica historia de osteoartrosis, consumo crónico de AINE y evacuaciones negras. Durante la\nexploración física se registra TA de 100/60 mmHg. FC de 90/min y FR de 21/min; se observa palidez de tegumentos\ny no se presenta esplenomegalia ni petequias.\nAdemás de una biometría hemática, ¿Qué estudios se deben solicitar ante la sospecha de anemia?",
         "options": [
             "A) Conteo de reticulocitos y cinética de hierro",
             "B) Prueba de Coombs y deshidrogenasa láctica",
@@ -187,7 +198,7 @@ const questions = [
         "justification": "http://www.cenetec-difusion.com/CMGPC/IMSS-415-10/ER.pdf"
     },
     {
-        "question": "19. Un paciente de 45 años acude a consulta externa por que presenta hipostenia e hipodinamia desde hace 2 meses,\nincremento de 8 kg en los últimos 6 meses y glucemia en ayunas de 155 mg/dL en el último mes. Refiere antecedentes\nheredofamiliares de diabetes mellitus en rama paterna y en la exploración física se registra IMC de 31 kg/m, Se solicita\nlaboratorio con carga de 75 g de glucosa y toma de glucemia venosa a las 2 horas; se reporta 180 mg/DL.\n¿Cuál es la interpretación del resultado de la paciente?",
+        "question": "18. Un paciente de 45 años acude a consulta externa por que presenta hipostenia e hipodinamia desde hace 2 meses,\nincremento de 8 kg en los últimos 6 meses y glucemia en ayunas de 155 mg/dL en el último mes. Refiere antecedentes\nheredofamiliares de diabetes mellitus en rama paterna y en la exploración física se registra IMC de 31 kg/m, Se solicita\nlaboratorio con carga de 75 g de glucosa y toma de glucemia venosa a las 2 horas; se reporta 180 mg/DL.\n¿Cuál es la interpretación del resultado de la paciente?",
         "options": [
             "A) Glucosa alterada en ayunas",
             "B) Intolerancia a carbohidratos",
@@ -198,7 +209,7 @@ const questions = [
         "justification": ""
     },
     {
-        "question": "20. Un paciente de 50 años acude a consulta externa de primer nivel porque presenta afectación motora y sensitiva\nen hemicuerpo derecho leve, afasia, diplopía y ataxia de 2 horas de evolución. en la valoración se encuentra estable,\nse sospecha EVC en evolución.\n¿Cuál es estudio de gabinete de primera elección que se debe solicitar?",
+        "question": "19. Un paciente de 50 años acude a consulta externa de primer nivel porque presenta afectación motora y sensitiva\nen hemicuerpo derecho leve, afasia, diplopía y ataxia de 2 horas de evolución. en la valoración se encuentra estable,\nse sospecha EVC en evolución.\n¿Cuál es estudio de gabinete de primera elección que se debe solicitar?",
         "options": [
             "A) RM",
             "B) USG Doppler",
@@ -209,7 +220,7 @@ const questions = [
         "justification": "La imagenología cerebral de urgencia se recomienda antes de iniciar cualquier terapia específica para tratar un\nevento vascular cerebral isquémico agudo, en la mayoría de los casos, la tomografía computarizada simple (sin\ncontraste) proveerá la información necesaria para tomar decisiones en el manejo de urgencias.\nhttps://www.imss.gob.mx/sites/all/statics/guiasclinicas/102GER.pdf"
     },
     {
-        "question": "21. Un paciente de 35 años acude a consulta al servicio de urgencias por\npresentar dolor opresivo abdominal en epigastrio, con intensidad 8/10\ndesde hace 24 horas. refiere haber presentado este cuadro en varias\nocasiones y que normalmente cedía con analgésicos no especificados, en la\nexploración física destaca: TC 38°c se presenta dolor a la palpación en\nepigastrio e hipocondrio derecho.\nSe solicita ecografía abdominal en la que se observa lo siguiente... los\nhallazgos revelan imagen....",
+        "question": "20. Un paciente de 35 años acude a consulta al servicio de urgencias por\npresentar dolor opresivo abdominal en epigastrio, con intensidad 8/10\ndesde hace 24 horas. refiere haber presentado este cuadro en varias\nocasiones y que normalmente cedía con analgésicos no especificados, en la\nexploración física destaca: TC 38°c se presenta dolor a la palpación en\nepigastrio e hipocondrio derecho.\nSe solicita ecografía abdominal en la que se observa lo siguiente... los\nhallazgos revelan imagen....",
         "options": [
             "A) Polipoide en la pared de la vesícula biliar",
             "B) hiperecogénica en vesícula biliar con sombra acústica",
@@ -220,7 +231,7 @@ const questions = [
         "justification": "Se muestra imagen intravascular hiperecogénica con sombra posterior\nEcografía de la vesícula y la vía biliar | Medicina de Familia. SEMERGEN (elsevier.es)\nhttps://med.unne.edu.ar/revistas/revista98/caso_clin_ecogra.htm En la ecografía los cálculos se observan como\nfocos ecogénicos con sombra acústica posterior. Se ha demostrado que todos los cálculos mayores de 3 mm.\nPresentan sombra, la cual no tiene relación con el contenido cálcico del cálculo, ni con su forma, superficie o\ndensidad. Debe tenerse en cuenta que focos ecogénicos intravesiculares menores de 5 mm, y sin sombra, en el 81%\nde los casos representan litiasis."
     },
     {
-        "question": "22. Un paciente de 34 años es referida por el servicio de medicina preventiva por presentar una citología cervical\nLEIA, sin reporte de resultado de VPH y que se encuentra sintomática. como antecedente presenta G0 P0 A0, IVSA\n17 años, 2 parejas sexuales y uso de anticonceptivos orales. en el examen ginecológico se observan anormalidades\nmorfológicas en cuello uterino.\n¿Qué estudio se debe indicar para el estudio de la paciente?",
+        "question": "21. Un paciente de 34 años es referida por el servicio de medicina preventiva por presentar una citología cervical\nLEIA, sin reporte de resultado de VPH y que se encuentra sintomática. como antecedente presenta G0 P0 A0, IVSA\n17 años, 2 parejas sexuales y uso de anticonceptivos orales. en el examen ginecológico se observan anormalidades\nmorfológicas en cuello uterino.\n¿Qué estudio se debe indicar para el estudio de la paciente?",
         "options": [
             "A) Citología cervical de base liquida",
             "B) Prueba de VPH",
@@ -231,7 +242,7 @@ const questions = [
         "justification": ""
     },
     {
-        "question": "23. En el seguimiento de un paciente de 5 años que fue derivado por leucemia aguda al presentar infecciones\nrecurrentes, debilidad, palidez generalizada, sudoración nocturna y alteración del nivel de hemoglobina, se observa\nen el expediente el resultado del aspirado de medula ósea en el que se registró 10% de mieloblastos y 40% de\nlinfoblastos.\n¿Qué tipo de leucemia presenta el paciente?",
+        "question": "22. En el seguimiento de un paciente de 5 años que fue derivado por leucemia aguda al presentar infecciones\nrecurrentes, debilidad, palidez generalizada, sudoración nocturna y alteración del nivel de hemoglobina, se observa\nen el expediente el resultado del aspirado de medula ósea en el que se registró 10% de mieloblastos y 40% de\nlinfoblastos.\n¿Qué tipo de leucemia presenta el paciente?",
         "options": [
             "A) Mieloide",
             "B) Linfoide",
@@ -242,7 +253,18 @@ const questions = [
         "justification": "LLA más frecuente en los pacientes menores de 15 años lo que representa la cuarta parte de todos los cánceres y el\n76% de todas las leucemias pertenece a este grupo de edad. Incidencia de caracteriza con un pico entre 2 y 5 años,\nPosteriormente hay una caída de incidencia durante infancia tardía, adolescencia y adultez temprana.\nLAL es una transformación maligna de las células hematopoyéticas pluripotenciales o de sus progenitoras, que\npresentan una proliferación y crecimiento incontrolado de células inmaduras que han perdido la incapacidad de\ndiferenciarse.\nEl diagnostico de certeza de LA se realiza con el aspirado de medula ósea:\n- + 20% de mieloblastos para leucemia mieloide aguda\n- + 30% de linfoblastos para leucemia linfoblástica aguda\nGPC: Dx oportuno de la leucemia aguda en pediatría en primer y segundo nivel"
     },
     {
-        "question": "25. Una paciente de 68 años acude a consulta de urgencias por cuadro de dolor quemante continuo en la región del\ncuello y parestesia ardorosa en el brazo izquierdo de 3 días de evolución; se acompaña de Rush y prurito, y el día de\nhoy le aparece vesículas y nota la sensación de roce doloroso. Presenta antecedentes de diabetes mellitus con 4 años\nde evolución, controlada con metformina y cuya última HbA1c fue de 6.5%; así como antecedente de insuficiencia\nvenosa crónica. En la exploración física destaca hipersensibilidad dolorosa en la trayectoria de C2-C5 del lado\nizquierdo, dolor importante a la palpación, exantema papular y vesicular con líquido claro.\nDe acuerdo con los datos presentados, ¿Qué diagnóstico definitivo se integra?",
+        "question": "23. Una paciente de 37 años acude a consulta por que presenta dolor abdominal en hipocondrio derecho de\nintensidad moderada que se irradia hacia región lumbar derecha. Refiere que el día anterior presento nausea y\nvomito de contenido alimentario en dos ocasiones. entre sus antecedentes destaca cáncer de mama en su madre a\nlos 48 a; os y cáncer de ovario en tía materna a los 52 años. en la exploración física se registra FR de 18 rpm y FC de\n99lpm y TA 118-89mmhg. se observa palidez en piel y mucosa, se detecta abdomen globoso, blando, depresible y\ndoloroso a la palpación superficial y profunda en hipocondrio derecho, en donde se palpa una masa abdominal. en\nel examen ginecológico se palpa masa para uterina derecha, móvil, dolorosa y endurecida al tacto bimanual. se\nsolicitan estudios de laboratorio y se realiza USG pélvico abdominal en el que se observa tumoración anexial derecha\ncon lesión multilobulada, predominantemente solida con áreas quísticas heterogéneas en su interior, que ocupa fosa\niliaca y flanco derecho.\nDe acuerdo con los hallazgos el estudio sérico de medicina personalizada que se debe solicitar para analizar el\nriesgo de malignidad en el paciente es...",
+        "options": [
+            "A) CA 125",
+            "B) CA 15-3",
+            "C) CA 19-9"
+        ],
+        "correct": "A",
+        "correct_text": "CA 125",
+        "justification": "GPC Abordaje Diagnóstico y Referencia del Tumor Pélvico Ginecológico con Sospecha de Malignidad\nEl Ca 125 es muy específico del cáncer epitelial de ovario, sin embargo, su valor como prueba única no es tan\nacertada, pues puede tener falsos positivos en enfermedades benignas como lo son: fibromas, adenomiosis,\nmenstruación, endometriosis, infección pélvica, patología de intestino por lo que se debe de tomar con cautela y de\npreferencia correlacionar con datos clínicos y ultrasonografía, ya que su combinación aumenta su capacidad de\ndetección de procesos malignos."
+    },
+    {
+        "question": "24. Una paciente de 68 años acude a consulta de urgencias por cuadro de dolor quemante continuo en la región del\ncuello y parestesia ardorosa en el brazo izquierdo de 3 días de evolución; se acompaña de Rush y prurito, y el día de\nhoy le aparece vesículas y nota la sensación de roce doloroso. Presenta antecedentes de diabetes mellitus con 4 años\nde evolución, controlada con metformina y cuya última HbA1c fue de 6.5%; así como antecedente de insuficiencia\nvenosa crónica. En la exploración física destaca hipersensibilidad dolorosa en la trayectoria de C2-C5 del lado\nizquierdo, dolor importante a la palpación, exantema papular y vesicular con líquido claro.\nDe acuerdo con los datos presentados, ¿Qué diagnóstico definitivo se integra?",
         "options": [
             "A) Dermatitis de contacto",
             "B) Herpes zóster",
@@ -253,7 +275,7 @@ const questions = [
         "justification": "https://revistamedicasinergia.com/index.php/rms/article/view/566/968 El Herpes Zóster (HZ) es la reactivación\nespontánea del VVZ. Entre los factores de riesgo estudiados en un meta-análisis se encuentra: Siendo el principal la\nedad, pues se acompaña de un descenso en la inmunidad. Además de condiciones que comprometan el sistema\ninmune, como inmunodeficiencias primarias, comorbilidades como insuficiencia renal aguda, EPOC, Diabetes\nMellitus.\nEl cuadro clínico típico se caracteriza por un pródromo de 1-5 días llamado neuralgia pre herpética o neuritis aguda.\nEs un dolor localizado, quemante y severo en la región del dermatoma afectado. Posterior a esto aparece el brote\nclásico maculopapular que evoluciona a vesículas que eventualmente se vuelven pústulas y finalmente costras en\naproximadamente 14 días."
     },
     {
-        "question": "26. En un municipio se reporta que las infecciones respiratorias agudas fueron la primera causa de morbilidad en\ntodos los grupos de edad durante los meses de más bajas temperaturas en el último año. se identifica que la influenza\nrepresenta la mayor frecuencia por lo que niños y adultos mayores acudieron a los servicios de salud y alrededor de\n40% presento cuadro moderado o grave.\n¿Qué necesidad sanitaria se debe atender?",
+        "question": "25. En un municipio se reporta que las infecciones respiratorias agudas fueron la primera causa de morbilidad en\ntodos los grupos de edad durante los meses de más bajas temperaturas en el último año. se identifica que la influenza\nrepresenta la mayor frecuencia por lo que niños y adultos mayores acudieron a los servicios de salud y alrededor de\n40% presento cuadro moderado o grave.\n¿Qué necesidad sanitaria se debe atender?",
         "options": [
             "A) promoción de las medidas de higiene",
             "B) Aislamiento domiciliario de nuevos casos",
@@ -264,7 +286,7 @@ const questions = [
         "justification": "Manual de vacunación 2017\nEn estudios en niños sanos han reportado una eficacia del 91 hasta el 100% en adolescentes para prevenir influenza.\nEn adultos sanos menores de 65 años tiene una eficacia del 70 al 90%. La vacunación en adultos sanos previene el\n90% de hospitalizaciones por esa causa en menores de 65 años. En mayores de 60 años se ha reportado una eficacia\ndel 58%. La vacunación previene más del 80% de las muertes por influenza."
     },
     {
-        "question": "27. En una entidad del país se analizan los componentes del diagnóstico de salud poblacional. se identifica que en\ntodos los grupos de edad se reportan las infecciones respiratorias agudas como primera causa de morbilidad, seguida\nde enfermedades crónicas en personas mayores de 60 años, en contraste con la mortalidad ya que la población\nenferma y muere por padecimientos de origen crónico, desplazando a los padecimientos de origen infeccioso.\nrespecto a la característica de la vivienda se registró que hay en promedio 5.5 ocupantes y 3.5 habitaciones por cada\nuna. de las viviendas particulares, 61.3% tiene piso de cemento o firme, 25.3% piso de tierra y 13.4% mosaico u otro\nrecubrimiento, 51.6% cuenta con drenaje, 62.1% tiene agua en el ámbito de la vivienda, 99.2% cuenta con energía\neléctrica y 25% cocina con leña\n¿cuál es la necesidad sanitaria que se debe atender, con base en los determinantes sociales de la población?",
+        "question": "26. En una entidad del país se analizan los componentes del diagnóstico de salud poblacional. se identifica que en\ntodos los grupos de edad se reportan las infecciones respiratorias agudas como primera causa de morbilidad, seguida\nde enfermedades crónicas en personas mayores de 60 años, en contraste con la mortalidad ya que la población\nenferma y muere por padecimientos de origen crónico, desplazando a los padecimientos de origen infeccioso.\nrespecto a la característica de la vivienda se registró que hay en promedio 5.5 ocupantes y 3.5 habitaciones por cada\nuna. de las viviendas particulares, 61.3% tiene piso de cemento o firme, 25.3% piso de tierra y 13.4% mosaico u otro\nrecubrimiento, 51.6% cuenta con drenaje, 62.1% tiene agua en el ámbito de la vivienda, 99.2% cuenta con energía\neléctrica y 25% cocina con leña\n¿cuál es la necesidad sanitaria que se debe atender, con base en los determinantes sociales de la población?",
         "options": [
             "A) Número de camas no sensibles",
             "B) Condiciones de la vivienda",
@@ -275,7 +297,7 @@ const questions = [
         "justification": "https://www.medigraphic.com/pdfs/saljalisco/sj-2014/sj141j.pdf\nLa determinación en salud es el proceso por él que se producen las diversas formas de enfermar o morir de la\npoblación. Los determinantes sociales de la salud, son las circunstancias en que las personas nacen, crecen, viven,\ntrabajan y envejecen, y los sistemas establecidos para combatir las enfermedades que padecen.\nRespecto a las condiciones de las viviendas referidas en el texto, la mayoría cuentan con piso de cemento o firme,\nasí mismo con los servicios agua, luz y drenaje. La OMS define el hacinamiento como la “condición donde el número\nde ocupantes excede la capacidad de espacio de vivienda”, el indicador: 3 personas o más viviendo en una misma\nhabitación. La relación entre ocupantes y cuartos es adecuada. Y se menciona que la primera causa de mortalidad\nson las infecciones respiratorias seguidas de las crónicas, por tanto, es importante el aumento del acceso a los\nservicios de salud"
     },
     {
-        "question": "28. En una comunidad se ha incrementado el número de cuadros asociados con dermatitis, nausea, vómito, astenia,\nirritación de las mucosas respiratorias y conjuntivales, cefaleas, vértigo y perdida de equilibrio entre las personas que\ntrabajan en los campos de cultivo. Entre la población se detecta que la mayoría de los trabajadores de los cultivos no\ntenía conocimiento de que se cuenta con equipo de protección personal y que quienes lo utilizan no lo portan\nadecuadamente. Esto debido a que se integraron a la labor de campo mecanizada sólo con la experiencia previa de\nagricultura de subsistencia. En los últimos años la comunidad ha crecido e incluso algunas prácticas se han visto\nrebasadas, por ejemplo, se dejó de quemar basura y ésta ahora se acumula en un espacio designado en la comunidad,\npero la recolección es quincenal\n¿Qué aspectos integran el diagnóstico de salud de la comunidad?",
+        "question": "27. En una comunidad se ha incrementado el número de cuadros asociados con dermatitis, nausea, vómito, astenia,\nirritación de las mucosas respiratorias y conjuntivales, cefaleas, vértigo y perdida de equilibrio entre las personas que\ntrabajan en los campos de cultivo. Entre la población se detecta que la mayoría de los trabajadores de los cultivos no\ntenía conocimiento de que se cuenta con equipo de protección personal y que quienes lo utilizan no lo portan\nadecuadamente. Esto debido a que se integraron a la labor de campo mecanizada sólo con la experiencia previa de\nagricultura de subsistencia. En los últimos años la comunidad ha crecido e incluso algunas prácticas se han visto\nrebasadas, por ejemplo, se dejó de quemar basura y ésta ahora se acumula en un espacio designado en la comunidad,\npero la recolección es quincenal\n¿Qué aspectos integran el diagnóstico de salud de la comunidad?",
         "options": [
             "A) Desconocimiento sobre el uso correcto del EPP y de los plaguicidas",
             "B) Intoxicación por plaguicidas y recolección insuficiente de basura",
@@ -286,7 +308,7 @@ const questions = [
         "justification": "La medicina preventiva se centra en la evitación de los problemas de salud antes de que se produzcan. La medicina\npreventiva también se centra en el diagnóstico de problemas de salud antes de que se manifiesten los síntomas o\nsurjan complicaciones, cuando las probabilidades de recuperación son más altas\nSíntomas de intoxicación por pesticidas: Náusea, dolor de cabeza, mareo, molestia de pecho, ampollas de piel,\ndiarrea, visión borrosa.\nLos riesgos que los desechos sólidos no recolectados tienen para la salud son evidentemente mayores para las\npersonas que habitan en zonas sin cobertura de los servicios de recolección y barrido. Los niños de edad preescolar\nson los más expuestos a sufrir lesiones, intoxicaciones o infecciones, puesto que suelen entrar en contacto con estos\nresiduos en las calles o en los basureros no oficiales"
     },
     {
-        "question": "29. En una comunidad rural se reporta un brote de diarrea aguda. las evacuaciones acuosas y blanquecinas y se\nacompañan de nausea y vomito.\n¿Cuál es el recurso con el que se cuenta en la comunidad para controlar el brote de la enfermedad?",
+        "question": "28. En una comunidad rural se reporta un brote de diarrea aguda. las evacuaciones acuosas y blanquecinas y se\nacompañan de nausea y vomito.\n¿Cuál es el recurso con el que se cuenta en la comunidad para controlar el brote de la enfermedad?",
         "options": [
             "A) método para cloración del agua en todos los abastecimientos",
             "B) capacidad de identificación de casos en las escuelas",
@@ -297,7 +319,7 @@ const questions = [
         "justification": "OMS enfermedades diarreicas Enfermedades diarreicas (who.int)\nSe recomienda las siguientes medidas: el acceso a fuentes inocuas de agua de consumo (ya sea potable, hervida o\nclorada); lavado de manos con jabón; lactancia exclusivamente materna durante los primeros seis meses de vida;\nuna higiene personal y alimentaria correctas; la educación sobre salud y sobre los modos de transmisión de las\ninfecciones; la vacunación contra rotavirus."
     },
     {
-        "question": "30. En una unidad de salud se presenta un aumento en la prevalencia de algunos problemas de salud en pacientes\npediátricos, se estima la magnitud y gravedad de cada padecimiento y se calcula la factibilidad resolutiva con base\nen los recursos disponibles, como se indica a continuación.\n¿Qué situación sanitaria se debe atender de manera prioritaria, con base en el método de Hanlon?",
+        "question": "29. En una unidad de salud se presenta un aumento en la prevalencia de algunos problemas de salud en pacientes\npediátricos, se estima la magnitud y gravedad de cada padecimiento y se calcula la factibilidad resolutiva con base\nen los recursos disponibles, como se indica a continuación.\n¿Qué situación sanitaria se debe atender de manera prioritaria, con base en el método de Hanlon?",
         "options": [
             "A) Faringoamigdalitis bacteriana",
             "B) Otitis media aguda",
@@ -308,7 +330,7 @@ const questions = [
         "justification": "Método de Hanlon: para establecer la priorización de problemas (A+B) C x D: donde A corresponde a la magnitud\ndel problema, B la severidad, C corresponde a la eficacia de solución y D la factibilidad de intervención.\n- Faringoamigdalitis (6+2) x 1.5 x 1 = 12\n- Otitis media aguda (6+5) x 0.5 x 1 =5.5\n- IVU: (4+3) x 1.5 x 1 = 10.5"
     },
     {
-        "question": "31. Un paciente de 42 años acude a consulta por presentar debilidad en hemicara derecha de inicio súbito, dolor\nretroauricular derecho y parestesias en carrillo derecho de 12 horas de evolución. En la exploración física se detecta\nparálisis facial periférica derecha de grado 2 en escala House-Brackmann y el resto de la exploración neurológica sin\nalteraciones. Se determina diagnóstico de parálisis facial idiopática.\n¿Cuál es el tratamiento farmacológico de primera elección para el paciente",
+        "question": "30. Un paciente de 42 años acude a consulta por presentar debilidad en hemicara derecha de inicio súbito, dolor\nretroauricular derecho y parestesias en carrillo derecho de 12 horas de evolución. En la exploración física se detecta\nparálisis facial periférica derecha de grado 2 en escala House-Brackmann y el resto de la exploración neurológica sin\nalteraciones. Se determina diagnóstico de parálisis facial idiopática.\n¿Cuál es el tratamiento farmacológico de primera elección para el paciente",
         "options": [
             "A) Gabapentina",
             "B) Prednisona",
@@ -319,7 +341,7 @@ const questions = [
         "justification": "Diagnóstico y manejo de la parálisis de Bell: Tx médico: iniciar en las primeras 72 hrs del padecimiento y realizar\ndosis de reducción.\n• Prednisona 1mg/kg/día x 5 días y reducir 10 mg cada día hasta suspender.\nPruebas limitadas de los ensayos aleatorios sugieren que el aciclovir o el valaciclovir pueden reducir la proporción de\npacientes con recuperación incompleta cuatro meses después del tratamiento y que los corticoesteroides pueden\nreducir más que el aciclovir o el valaciclovir. Se sugiere iniciar con corticoesteroides y en casos de parálisis completa\no grave cuando se sospeche de síndrome de Ramsay-Hunt agregar antivirales."
     },
     {
-        "question": "32. Un paciente de 60 años acude a consulta por que presenta somnolencia tos no productiva y disnea, entre sus\nantecedentes presenta EPOC crónica de larga evolución con control médico y lumbalgia crónica. menciona que hace\ndos días se colocó un parche transdérmico de buprenorfina que le indicaron para el dolo mientras se planea la cirugía\nortopédica.\nLa manifestación de la paciente que se asocia con el efecto adverso del medicamento es…",
+        "question": "31. Un paciente de 60 años acude a consulta por que presenta somnolencia tos no productiva y disnea, entre sus\nantecedentes presenta EPOC crónica de larga evolución con control médico y lumbalgia crónica. menciona que hace\ndos días se colocó un parche transdérmico de buprenorfina que le indicaron para el dolo mientras se planea la cirugía\nortopédica.\nLa manifestación de la paciente que se asocia con el efecto adverso del medicamento es…",
         "options": [
             "A) somnolencia",
             "B) tos seca",
@@ -330,7 +352,7 @@ const questions = [
         "justification": "Efectos adversos frecuentes de buprenorfina: somnolencia, sedación, mareo, vértigo, nausea, vomito, debilidad,\nfatiga."
     },
     {
-        "question": "33. Una paciente de 5 años fue llevada consulta por que el día previo inicio con dolor abdominal, nausea y vomito\npersistentes, fue ingresada, le administraron paracetamol, metoclopramida y omeprazol intravenoso y mantuvieron\nen observación. al día siguiente personal de enfermería reporto que al registrar los signos vitales, la paciente presento\nmovimientos espasmódicos de cuello y la mandíbula.\n¿Qué fármaco origino los síntomas asociados con la distonía en la paciente.?",
+        "question": "32. Una paciente de 5 años fue llevada consulta por que el día previo inicio con dolor abdominal, nausea y vomito\npersistentes, fue ingresada, le administraron paracetamol, metoclopramida y omeprazol intravenoso y mantuvieron\nen observación. al día siguiente personal de enfermería reporto que al registrar los signos vitales, la paciente presento\nmovimientos espasmódicos de cuello y la mandíbula.\n¿Qué fármaco origino los síntomas asociados con la distonía en la paciente.?",
         "options": [
             "A) paracetamol",
             "B) metoclopramida",
@@ -341,7 +363,7 @@ const questions = [
         "justification": "Efectos adversos metoclopramida frecuentemente reportadas a este fármaco son: cefalea, mareos, somnolencia,\ndepresión, reacciones de hipersensibilidad (erupción, broncoespasmo), constipación, diarrea, cansancio y debilidad\nno habitual. Si se sobrepasan las dosis recomendadas especialmente en niños, adolescentes y ancianos pueden\noriginarse reacciones extrapiramidales (Síndrome de Parkinson, espasmos de los músculos de la cara, del cuello y de\nla lengua, incoordinación de los movimientos voluntarios y dificultad para mantenerse quieto), somnolencia y\ndesorientación. Estos síntomas normalmente desaparecen al suspender el tratamiento."
     },
     {
-        "question": "34. Una paciente de 56 años es llevada urgencias porque presento vomito con sangre en 3 ocasiones durante la\nnoche entre sus antecedentes, su hija refiere que toma citalopram diario desde hace 3 años. en la exploración física\ndestaca hipotensión y taquicardia. se ingresa y se instaura vía periférica con infusión de somatostatina, omeprazol y\ndomperidona. se solicita endoscopia una vez que se estabilice hemodinamicamente en tanto la paciente se observa\ncon cefalea intensa, temblor mareo y nausea.\n¿Qué fármaco interactuó con el tratamiento antidepresivo de la paciente?",
+        "question": "33. Una paciente de 56 años es llevada urgencias porque presento vomito con sangre en 3 ocasiones durante la\nnoche entre sus antecedentes, su hija refiere que toma citalopram diario desde hace 3 años. en la exploración física\ndestaca hipotensión y taquicardia. se ingresa y se instaura vía periférica con infusión de somatostatina, omeprazol y\ndomperidona. se solicita endoscopia una vez que se estabilice hemodinamicamente en tanto la paciente se observa\ncon cefalea intensa, temblor mareo y nausea.\n¿Qué fármaco interactuó con el tratamiento antidepresivo de la paciente?",
         "options": [
             "A) somatostatina",
             "B) omeprazol",
@@ -352,7 +374,7 @@ const questions = [
         "justification": "La administración conjunta de escitalopram con omeprazol una vez al día (inhibidor de la CYP2C19) produjo un\nincremento moderado (aproximadamente 50%) de las concentraciones plasmáticas de escitalopram.\nAlgunos de los síntomas de una sobredosis pueden incluir latidos irregulares del corazón con riesgo para la vida,\nconvulsiones, cambios en el ritmo del corazón, somnolencia, coma, vómitos, temblores, disminución de la presión\nsanguínea, aumento de la presión sanguínea, náuseas (sentirse mareado), síndrome serotoninérgico (ver sección"
     },
     {
-        "question": "35. una paciente de 55 años acude a consulta para de control de INR. tiene antecedente de trombosis venosa\nprofunda de extremidad pélvica derecha. se le indico uso de medias de compresión y Warfarina con ajuste de dieta\npara reducir consumo de alimentos ricos en vitamina k. se toma trombo test y el INR es de 2.0 se programa cita de\ncontrol en 7 días.\nLa recomendación dietética que se debe indicar a la paciente es, disminuir el consumo de…",
+        "question": "34. una paciente de 55 años acude a consulta para de control de INR. tiene antecedente de trombosis venosa\nprofunda de extremidad pélvica derecha. se le indico uso de medias de compresión y Warfarina con ajuste de dieta\npara reducir consumo de alimentos ricos en vitamina k. se toma trombo test y el INR es de 2.0 se programa cita de\ncontrol en 7 días.\nLa recomendación dietética que se debe indicar a la paciente es, disminuir el consumo de…",
         "options": [
             "A) toronja y brócoli",
             "B) mantequilla y embutidos",
@@ -418,6 +440,28 @@ const questions = [
         "justification": "Es recomendable indicar a los pacientes con IVC que realicen actividades físicas; especialmente se recomienda la\nnatación y la deambulación durante 30 minutos al día. Para las personas que tienen períodos prolongados de\nsedestación (más de 5 horas) se recomienda: realizar ejercicios de compresión de los músculos de la pantorrilla que\nimpliquen la flexión y extensión de los tobillos, así como movimientos circulares del pie.\nGPC PREVENCIÓN, DIAGNÓSTICO Y TRATAMIENTO DE IVC."
     },
     {
+        "question": "41. Una px de 53 años asiste a consulta de control glucémico porque fue diagnosticada con DM desde hace 5 años.\nRefiere continuar con el Tx farmacológico, el seguimiento nutricio y natación cada 3er día como actividad física. En\nla EF los SV son normales, IMC de 26 kg/m2 y perímetro de cintura de 85 cm. En la revisión de los pies se detecta\nhiperqueratosis plantar, predominantemente en la zona del talón. El calzado que predominantemente utiliza la px\nes bajo y abierto, tipo sandalia, porque le resulta muy cómodo.\n¿Qué recomendación específica se debe indicar a la px para el cuidado de sus pies?",
+        "options": [
+            "A) Zapato con suela ancha y de goma flexible.",
+            "B) Calzado de descarga.",
+            "C) Zapato con material interior termo moldeable."
+        ],
+        "correct": "A",
+        "correct_text": "Zapato con suela ancha y de goma flexible.",
+        "justification": "Los zapatos serán de piel, tacón bajo, de horma ancha y sin costuras, y abrocharán de forma que no comprima el\npie (cordones o velcro). GPC Diabetes mellitus tipo"
+    },
+    {
+        "question": "42. Un px de 69 años acude a consulta porque fue Dx con HTA hace 1 mes y le indicaron cambios en el estilo de vida\ny Tx farmacológico. Tiene antecedentes de tabaquismo de 40 años a razón de 1 cajetilla al día, suspendido hace 7\naños, DM desde hace 15 años Tx con insulina y le colocaron dos stent en coronaria derecha media y se le realizó\nangioplastia coronaria translaminar percutánea con balón en el ramo posterolateral. En la EF se registra FC de 80\nlpm, FR de 20 rpm y TA de 165/71 mmHg. Se ajusta el Tx farmacológico, se reitera el impacto benéfico de ajustar su\nestilo de vida y se indica registro diario de TA por 4 semanas.\n¿Qué meta terapéutica de TA se debe establecer para la siguiente cita?",
+        "options": [
+            "A) 120/80 mmHg.",
+            "B) 130/80 mmHg.",
+            "C) 140/90 mmHg."
+        ],
+        "correct": "B",
+        "correct_text": "130/80 mmHg.",
+        "justification": "Meta en pxs diabéticos o con cardiopatía isquémica es de 130/80 mmHg.\nGPC Dx y Tx de HTA en el adulto mayor: Pacientes mayores de 60 años con HTA + DM o ERC deben mantener una\nTA de 140/90 mmHg\nAHA: recomienda que en adultos con enfermedad arterial coronaria o con síndrome coronario agudo la tensión\narterial objetivo sea de acuerdo con la edad:\nEn pacientes de 80 años o menores, mantener por debajo de \nSi tienen más de 80 años, mantener por debajo de 150/90 mmHg.\nSe recomienda que en adultos con HAS con < 80 años la meta de PA a corto plazo debe ser <  Sin\nembargo, para adultos con hipertensión y enfermedad cardiovascular conocida, o riesgo de evento CV a 10 años de\n≥ 10%, se recomienda un objetivo de PA < 130/80 mmHg."
+    },
+    {
         "question": "43. Px de 48 años es trasladado en ambulancia al servicio\nde urgencias tras haber sido atropellado por un vehículo.\nLos paramédicos indican que presentó perdida del estado\nde alerta, se inmovilizo la columna vertebral colocándolo\nsobre una tabla y en el camino comenzó a recobrar la\nconciencia, refirió tener cefalea y dolor torácico. En el\nhospital se realiza examen físico y tanto las vías aéreas\ncomo la respiración se encuentran normales. Se registra\nFC de 90 lpm, TA de 120/80 mmHg, SatO2 de 95 % y T° de\n36,8 °C. En el examen neurológico se encuentra\nconsciente, con desorientación de tiempo y lugar y solo\nabre los ojos cuando se le solicita. Se observa laceración\nen hemicara izquierda de 3 cm y otra de 15 cm en el brazo\nizquierdo tiene múltiples equimosis con deformidades. Se\nauscultan movimientos respiratorios normales, campos\npulmonares bien ventilados, área precordial sin\ncompromiso, abdomen normal, algunas escoriaciones y\npequeñas abrasiones, blando, depresible, sin datos de irritación peritoneal.\n¿Cuáles datos indican que el px debe ser enviado al siguiente nivel de atención?",
         "options": [
             "A) Características de laceraciones.",
@@ -465,12 +509,34 @@ const questions = [
         "question": "47. Un px de 54 años acude al servicio de Urgencias porque desde hace 3 días presenta una lesión en el pie derecho,\nsin antecedentes traumático. También menciona tener desde hace 10 años DM controlada con 16 UI de insulina al\ndía, dislipidemia con pravastatina, HTA con enalapril, tabaquismo desde los 16 años a razón de fumar 10 cigarros al\ndía y obesidad. En la EF se observa marcha antiálgica con descarga de peso en el talón del pie derecho, lesión tipo\núlcera hiperqueratosica de 1X2 cm en cara plantar, en la base del primer ortejo, con hiperemia perilesional,\nhipertermia, dolor a la manipulación y flexo extensión del primer dedo, con presencia de exudado purulento, fétido,\nde cantidad moderada, pulso femoral 2/2, sin soplo, poplíteo 2/2, pedio 2/2 y tibial posterior 2/2, además de\nmovilidad del dedo conservada, sensibilidad disminuida y prueba de monofilamento Semmes-Weinstein 2/10\nDe acuerdo con el cuadro clínico del px y la escala de Wagner, el manejo inicial de urgencias indicado es:",
         "options": [
             "A) Lavado abundante de la lesión con SS al 0.9 % seguido de medicina física y rehabilitación.",
-            "B) Desbridamiento Qx en las zonas con celulitis, abscesos o signos de sepsis y Tx con ATB´s.",
+            "B) Desbridamiento Qx en las zonas con celulitis, abscesos o signos de sepsis y Tx con ATB's.",
             "C) Desbridamiento cortante de esfácelos y del tejido necrótico, de ser necesario, enzimas proteolíticas o hidrogeles."
         ],
         "correct": "B",
-        "correct_text": "Desbridamiento Qx en las zonas con celulitis, abscesos o signos de sepsis y Tx con ATB´s.",
+        "correct_text": "Desbridamiento Qx en las zonas con celulitis, abscesos o signos de sepsis y Tx con ATB's.",
         "justification": "Clasificación de Wagner.\n0 ninguna, pie de riesgo. Callos gruesos, cabezas metatarsianas prominentes, dedos en garra, deformidades óseas.\n1 úlceras superficiales. Destrucción total del espesor de la piel.\n2 úlceras profundas. Penetra en la piel, grasa ligamentos, pero sin afectar al hueso, infectada.\n3 úlceras profundas más absceso. Extensa, profunda, secreción y mal olor.\n4 gangrena limitada Necrosis de parte del pie.\n5 gangrena extensa Todo el pie afectado, efectos sistémicos.\nTratamiento:\ngrado 0 • Lavado correcto con jabón neutro, aclarado abundante y secado exhaustivo. Evitar la humedad en el pie\ntipo 1 • Reposo absoluto del pie afectado durante 3-4 semanas. • Lavado abundante de la lesión con solución salina\nal 0’9 %. • Desbridamiento de las flictenas (ampollas), si las hubiese.\ntipo 2 • Reposo absoluto del pie afectado. • Vigilancia exhaustiva de la aparición de signos locales de infección:\ncelulitis, exudado purulento mal olor. • Limpieza de la lesión con solución salina fisiológica al 0’9%. Desbridamiento\nquirúrgico y/o cortante de esfácelos y del tejido necrótico. En aquellos en que no salgan se usarán productos con\nenzimas proteolíticos o hidrogeles\ntipo 3 • Desbridamiento quirúrgico en las zonas donde halla celulitis, abscesos, osteomielitis, o signos de sepsis. •\nTratamiento con antibióticos.\ntipo 4 • Gangrena en los dedos del pie: el paciente debe ser hospitalizado para estudiar su circulación periférica y\nvalorar tratamiento quirúrgico\ntipo 5 • Gangrena del pie: el paciente debe ser hospitalizado para amputación"
+    },
+    {
+        "question": "48. Una px de 58 años acude al servicio de urgencias porque presenta hematemesis franca abundante en dos\nocasiones con presencia de coágulos, se acompaña de dolor abdominal de intensidad 8/10, diaforesis, astenia y\nadinamia. Menciona haber presentado datos de evacuaciones melánicas hace 5 días. Entre sus antecedentes refiere\ntabaquismo positivo, enfermedad ácido-péptica por Helicobacter pylori Dx hace 3 años, pero sin manejo médico. En\nla EF se registra TA de 100/50 mmHg, FC de 120 lpm, FR de 18 rpm, T° de 36°C y SatO2 de 94 %. Se observa con\nmucosas pálidas ++, diaforética, con abdomen blando, dolor generalizado a la palpación, más acentuado en epigastrio\ne hipocondrio derecho, peristalsis disminuida, sin datos de irritación peritoneal y tacto rectal positivo a sangrado.\nAdemás de iniciar reanimación hídrica\n¿cuál es el plan inicial para el manejo médico de la px?",
+        "options": [
+            "A) Valorar hemo transfusión, administras IBP's y mantener vía aérea permeable.",
+            "B) Administrar ATB's de amplio espectro, manejo con BB y ligadura.",
+            "C) Terapia farmacológica con Terlipresina y ATB's profilácticos, escleroterapia endoscópica."
+        ],
+        "correct": "A",
+        "correct_text": "Valorar hemo transfusión, administras IBP's y mantener vía aérea permeable.",
+        "justification": "En este caso nos hablan de una px ya conocida con Dx de enfermedad acido péptica e infección por Helicobacter\npylori y que no recibió Tx, por ende, la principal causa a sospechar en esta px de STDA por úlcera péptica. La px\npresenta sangrado activo (así lo demuestra al tacto rectal la presencia de sangrado), a su vez la px se presenta con\npalidez de mucosas (++), taquicárdica (FC de 120), diaforética, con PAD de 100 mmHg, FR de 18, T de 36°C,\npresentando así datos de choque hipovolémico.\nSegún la GPC de STA alto no variceal, el manejo inicial debe ser con líquidos, la endoscopia se realizará una vez\nestabilizada la px (dentro de las primeras 24 horas de preferencia), a su vez la misma GPC recomienda usar altas\ndosis de IBP en pxs con ulcera péptica sangrante (con sangrado activo o no visible el vaso sangrante) seguido de\nterapia endoscópica hemostática.\nLa opción B nos dice ligadura y Tx ATB de amplio espectro, así como uso de BB, la ligadura únicamente se hace en\nSTDA por varices, y en este por los antecedentes que se comentan no es la etiología a pensar, a su vez el Tx con\nATB´s profilácticos no está indicado al menos de que sea un px con cirrosis (Según UptoDate: Saltzman, J. (2020).\nApproach to acute upper gastrointestinal bleeding in adults).\nLa opción C : La Terlipresina se usa en STDA variceal, por ello, tampoco serviría para el caso, a su vez nos repiten lo\nde la profilaxis con ATB.\nLa mejor opción es A, por lo anterior comentado.\nGPC: Prevención, Dx y Tx de la HTDA no variceal en los tres niveles de atención. Recuperado de:\nhttp://www.cenetec-difusion.com/CMGPC/ISSSTE-133-08/RR.pdf Pp. 11-"
+    },
+    {
+        "question": "49. Un médico efectúa una valoración domiciliaria de un px de 58 años quien durante el desayuno sintió malestar\ngeneral, cefalea leve y adormecimiento de la mano derecha con alteración de lenguaje durante 15 minutos, por lo\nque su hija solicitó la consulta. El px se recupera al integro y a la toma de glicemia capilar de 150 mg/dL. En la EF se\nregistran signos vitales con pulso rítmico, FC de 89 lpm, FR de 22 rpm, TA de 150/100 mmHg. Se ausculta soplo\ncarotideo izquierdo, ruidos cardiacos y campos pulmonares normales y Glasgow de 15, el px se encuentra alerta,\nconsciente, orientado, al solicitarlo indica su nombre completo sin dificultad, sonrisa simétrica, se dan indicaciones\npor las que cierra los ojos y levanta los brazos, se observa que cae levemente el derecho y el resto de la exploración\nsin alteraciones.\nAnte el cuadro del px se debe indicar:",
+        "options": [
+            "A) Trasladarlo de inmediato al servicio de urgencias del hospital más cercano.",
+            "B) Acudir a consulta con el neurólogo en cuanto le sea posible y que continúe tomando sus medicamentos.",
+            "C) Ajuste de antihipertensivo y que acuda a consulta de cardio para la valoración del soplo"
+        ],
+        "correct": "A",
+        "correct_text": "Trasladarlo de inmediato al servicio de urgencias del hospital más cercano.",
+        "justification": "GPC: Diagnóstico y Tratamiento Temprano de la ENFERMEDAD VASCULAR CEREBRAL ISQUEMICA La prueba “FAST”\nayuda a cribar los síntomas de un Evento vascular cerebral agudo incluye los siguientes elementos:\nFACE: Pedirle al paciente que sonría, trate de identificar asimetrías faciales.\nARMS: Pedirle al paciente que eleve ambos brazos, identifique si alguno de estos se encuentra a un nivel menor.\nSPEECH: Pedirle al paciente que repita una frase simple como “perro viejo no aprende trucos nuevos”, identifique si\nel paciente tiene problemas para pronunciar alguna de estas palabras.\nTIME: El tiempo es crítico en la atención de estos pacientes, si usted nota alteración en alguna de las respuestas del\npaciente (la que sea) se debe de considerar que se está ante un Evento Vascular Cerebral Agudo."
     },
     {
         "question": "50. Los familiares de una mujer de 67 años que se encuentra postrado en cama solicitan apoyo para valorarla, ya que\nlo observan muy desorientada. Entre sus antecedentes indican diabetes de larga evolución en tratamiento con 25 UI\npor la mañana y 10 UI por la noche de insulina NPH e hipertensión arterial tratada con telmisartán. En la exploración\nla paciente presenta Glasgow de 7 puntos (O-2, V-2, M-3), se observan pupilas isocóricas de 2 mm, hiporreflecticas y\nsin datos de focalización. Se registran signos vitales con TA 130/ 80 mmHg, FC 65/min, FR 16/min, T 36.5°c, glucemia\ncapilar de 40 mg/dl, SatO2 de 96%\n¿Cuál es el manejo prehospitalario que se debe indicar para resolver la emergencia?",
@@ -482,6 +548,17 @@ const questions = [
         "correct": "B",
         "correct_text": "Iniciar agentes hiperglucémicos",
         "justification": "GPC Diagnóstico y Tratamiento Farmacológico de la DIABETES MELLITUS TIPO 2\nLa Asociación Americana de Diabetes estableció el valor de < 70 mg/dL para que se considere hipoglucemia.\nLos síntomas de hipoglucemia se pueden dividir en dos grupos: autonómicos (sudoración, palpitaciones, temblor,\nmareo, hambre) y neuroglucopénicos (confusión, mareo, dificultad para hablar, comportamiento extraño, falta de\ncoordinación).\nSe sugiere dar de 15 a 20 g de un carbohidrato de acción rápida (4 a 6 onzas de jugo) al paciente si éste puede\ntragar. Si el paciente no puede tragar, se deben administrar vía intravenosa 25 ml de solución glucosada al 50%."
+    },
+    {
+        "question": "51. Un lactante de 6 meses es llevado por presentar fiebre de 38 °C y vómito de contenido gástrico en tres ocasiones,\nse agregaron deposiciones líquidas, amarillas y sin sangre. La madre indica como antecedentes que el menor se\nalimenta con fórmula y cereales sin gluten, aunque en las últimas 24 horas ha disminuido la ingesta de volumen. En\nla EF se observa sensorio conservado, alerta, irritable, fontanela normotensa, lengua pastosa, pero sin signo del\npliegue y se muestra sediento con saliva espesa. Se palpa abdomen blando, globoso y con abundantes ruidos\nhidroaéreos. Se estima pérdida de 500 g de peso con respecto a un control reciente.\n¿Qué procedimiento se debe iniciar con el menor?",
+        "options": [
+            "A) Ofrecer suero vida oral (SVO) a libre demanda durante 12 horas e iniciar alimentación.",
+            "B) Administrar 100 mL/Kg de VSO por 3 a 4 horas y reintroducir alimentos.",
+            "C) Hidratar con SVO y agregar antiemético e inhibidor de motilidad intestinal"
+        ],
+        "correct": "B",
+        "correct_text": "Administrar 100 mL/Kg de VSO por 3 a 4 horas y reintroducir alimentos.",
+        "justification": "NOM 031 NIÑO SANO\nDatos de deshidratación: Inquieto o irritable, Ojos hundidos, sin lágrimas, Boca y lengua secas, saliva espesa,\nRespiración rápida, Sed aumentada, bebe con avidez, Elasticidad de la piel >2 segundos, Pulso rápido, Llenado\ncapilar <2 segundos, Fontanela (lactantes) hundida.\nPlan B de hidratación: 50-100 ml/kg dividido en 4 horas en dosis fraccionadas de 30 minutos. Al mejorar pasar al\nplan A.\nPlan A: Continuar la alimentación habitual y ofrecer más bebidas de lo habitual, administrar VSO a < 1 año 75 mL y\n>1 año 150 mL después de cada evacuación. No suspender lactancia materna y evitar el consumo de bebidas\ncarbonatadas.\nGPC: Prevención, Dx y Tx de diarrea aguda en pxs de 2 meses a 5 años en el 1er y 2º nivel de atención. Recuperado\nde: http://www.cenetec-difusion.com/CMGPC/GPC-SS-156-18/ER.pdf Pp.18-"
     },
     {
         "question": "52. Una paciente de 53 años acude al servicio de Urgencias por que presenta cefalea intensa de 8 horas de evolución,\nmalestar general y artralgias generalizadas. Como antecedente presenta obesidad, hipertensión arterial de 5 años de\nevolución, controlada con beta bloqueador y diabetes mellitus de 13 años de evolución, controlada con insulina NPH\n30U por la mañana y 10U por la tarde, así como alergia a diclofenaco. Durante su ingreso se registran signos vitales\nde TA de 200/120 mmHg, FC de 125/mn, FR de 23/mn, T de 36°C; se obtiene glucemia capilar de 200mg/dL, se\nencuentra consciente y orientada\n¿Cuál es la solución de urgencia para la paciente?",
@@ -559,6 +636,17 @@ const questions = [
         "correct": "A",
         "correct_text": "Característica de la muestra",
         "justification": "La muestra no es la misma, hay distintos estudiantes en cada departamento y esto puede ser que las variantes se\nmezclen."
+    },
+    {
+        "question": "60. En un centro de salud se busca monitorear el seguimiento de los pacientes de entre 2 y 5 años que han sido\natendidos por desnutrición, durante el último año. De manera inicial, se analizarán los estadísticos descriptivos del\npeso, la talla y el pliegue tricipital; sin embargo, en los registros de la consulta inicial se detecta que los datos de talla\nno presentan una distribución normal.\n¿Qué medida de dispersión se debe utilizar para analizar la talla de estos pacientes?",
+        "options": [
+            "A) Desviación media.",
+            "B) Rango intercuartílico.",
+            "C) Varianza."
+        ],
+        "correct": "B",
+        "correct_text": "Rango intercuartílico.",
+        "justification": "CTO: rango intercuartílico. Es la diferencia entre el percentil 75 y"
     },
     {
         "question": "62. En una comunidad rural de 10 000 habitantes con 2 352 viviendas, se lleva a cabo un estudio transversal para\nidentificar el número de menores de 5 años que han presentado una enfermedad diarreica aguda en el último año.\nSe muestrean 100 viviendas y se concentran los datos.\n¿Qué parámetros permiten describir sintéticamente los datos registrados?",
@@ -768,6 +856,17 @@ const questions = [
         "correct": "B",
         "correct_text": "La remuneración debe ser justa y adecuada por el servicio de atención medica",
         "justification": ""
+    },
+    {
+        "question": "86. Una paciente de 79 años es egresada al servicio de urgencias por presentar dolor y debilidad en las piernas que\nen los últimos días le imposibilita caminar e incluso moverlas. Su familiar informa que en la última semana presento\nde forma súbita incontinencia urinaria e intestinal y pérdida de peso. En los resultados de laboratorio destaca\nhipercalcemia y en la radiografía de tórax se observan masas con aspecto irregular que indican malignidad y que\norientan a la sospecha de canses o metástasis ósea. Se requiere solicitar biopsia para confirmar y estudios adicionales\npara la estadificación. Al informar al paciente, se percibe agobiado y este rechaza los procedimientos exploratorios\nadicionales.",
+        "options": [
+            "A) Consultar con el familiar y enfatizar los riesgos de no realizar la prueba",
+            "B) Acatar la negativa del paciente de primera intención y comunicar al familiar",
+            "C) Reiterar la necesidad de realizar más pruebas y aceptar la decisión del paciente."
+        ],
+        "correct": "B",
+        "correct_text": "Acatar la negativa del paciente de primera intención y comunicar al familiar",
+        "justification": "No-maleficencia. El principio de la fuerza vital establece el deber de no causar daño, lesión o hacer algo que reduzca\nla fuerza vital de los miembros individuales de la comunidad o que amenace su existencia colectiva. Uno tampoco\ndebe dejar de hacer aquello que podría detener el daño que está siendo causado a otros. Kasenene escribe: «En\ntérminos del cuidado de la salud, se requiere al sanador tradicional y a la comunidad que no hagan nunca daño al\npaciente a menos que sea en su mejor interés o por el bien de la comunidad». Sánchez D, Ignacio. (2011). Aspectos\néticos de la gestión académica en una Facultad de Medicina. Revista médica de Chile, 139(8), 1097-1102,\nhttps://dx.doi.org/10.4067/S0034-98872011000800018"
     },
     {
         "question": "87. Una paciente de 56 años es trasladada al servicio de urgencias debido a neumonía por probable covid19, Se\ningresa y esta de inmediato indica que no desea ser intubada, ya que su madre fue sometida a ese procedimiento y\nfalleció al segundo día.\n¿Qué acción se debe efectuar de acuerdo con lo comentado por la paciente?",
@@ -1419,6 +1518,17 @@ const questions = [
         "justification": "https://www.aeped.es/category/pediamecum/gastroenterologia?page=2"
     },
     {
+        "question": "39. Un lactante de dos meses es llevado a consulta de control por su madre, a quien se le solicito verificar el esquema\nde vacunacion del menor esta al dia, en la guarderia a la que asiste se reporto un caso de neumonia por haemophilius\ninfluenzae tipo b.\n¿Qué inmunizacion se debe aplicar al menor para protegerlo de esta enfermedad?",
+        "options": [
+            "A) Triple viral (SPR – sarampión, paperas, rubeola)",
+            "B) Antineumococica conjugada Inmunización contra Streptococcus pneumoniae",
+            "C) Pentavalente acelular (difteria, tosferina, tétanos, poliomielitis e infecciones producidas por Haemophilus Influenzae tipo b)"
+        ],
+        "correct": "C",
+        "correct_text": "Pentavalente acelular (difteria, tosferina, tétanos, poliomielitis e infecciones producidas por Haemophilus Influenzae tipo b)",
+        "justification": "https://www.gob.mx/salud/articulos/esquema-de-vacunacion"
+    },
+    {
         "question": "40. Una paciente de 30 años es referida por un módulo de prevención de la misma unidad para consultar sobre la\nconvivencia de realizarse toma de citología cervical para la detección de cáncer cérvico uterino, ya que nunca se ha\nrealizado este estudio, pero cuenta con el esquema completo de vacuna anti VPH a los 11 años punto como\nantecedentes informa menarca los 12 años, inicio de la vida sexual activa a los 17 años, sin antecedentes de\nabortos o embarazos y no indica patologías. Actualmente, con pareja sexual estable y sin antecedentes heredo\nfamiliares de importancia.\nCon base en las características de la paciente la acción por seguir es.",
         "options": [
             "A) Realizar la citología cervical en cuanto sea posible",
@@ -1483,6 +1593,17 @@ const questions = [
         "correct": "B",
         "correct_text": "insercion de sonda pleural",
         "justification": ""
+    },
+    {
+        "question": "46. Una paciente de 3 años es llevada al servicio de Urgencias. Fue encontrada en el piso y a un costado habia un\npastillero abierto de la madre, quien sospecha que la menor ingirió de tres a cinco tabletas, pero no tiene certeza de\nsi eran cápsulas de litio o de olanzapina, ya que ambas las tuvo indicadas En la exploración física se registra FC de\n180/min y FR de 25/min, se observa muy intranquila, diaforética y responde débilmente a la estimulación verbal",
+        "options": [
+            "A) Colocar sonda nasogástrica para irrigación intestinal a base de polietilenglicol en posición Fowler",
+            "B) Vigilar vía aérea y realizar lavado gástrico con solución salina en decúbito lateral izquierdo en Trendelenburg",
+            "C) Colocar sonda nasogástrica para lavado gástrico con carbón activado diluido con agua a dosis de 0.5 a 1g/kg/dosis"
+        ],
+        "correct": "C",
+        "correct_text": "Colocar sonda nasogástrica para lavado gástrico con carbón activado diluido con agua a dosis de 0.5 a 1g/kg/dosis",
+        "justification": "https://www.madrid.es/ficheros/SAMUR/data/605_02.htm\nEl polietilenglicol 3350 es usado para tratar el estreñimiento ocasional. El polietilenglicol 3350 pertenece a una clase\nde laxantes llamados medicamentos osmóticos. Funcionan al causar que el agua sea retenida con las heces\n(materia fecal). Esto aumenta el número de evacuaciones intestinales y ablanda las heces para que pasen más\nfácilmente.\nTratamiento de urgencias:\n• Medidas universales: vía respiratoria, circulación, déficit neurológico, exposición con control de temperatura\n• Descontaminación: o Evitar la absorción: lavado gástrico, carbón activado, irrigación intestinal total para ingestas\nde presentaciones de liberación prolongada o Aumento de la eliminación: carbón activado, en múltiples dosis cada\n4 horas\n• Contrarrestar el efecto tóxico\nLo más probables es que fuera olanzapina debido a que su presentación es únicamente en tabletas y la presentación\ndel litio tiene otras presentaciones como “cápsulas”"
     },
     {
         "question": "47. En un estudio de revisión sistemática se busca analizar la experiencia del paciente en el manejo de la hipertensión,\nen contraste con los efectos adversos asociados con el tratamiento farmacológico, se integra la evidencia de 43\npublicaciones entre las que se incluyen reportes de ensayos clínicos y resultados de encuestas de satisfacción\nrealizadas por personal de unidades de salud. La experiencia del paciente se categoriza en variables relacionales y\nfuncionales, en donde las primeras contemplan aspectos interpersonales de la atención y las segundas, expectativas\nbásicas sobre cómo se presta ésta. Además, se integran estudios cuyo tamaño de muestra de pacientes u\norganizaciones fue mayor a 50 participantes para conducir el análisis estadístico",
