@@ -8,26 +8,19 @@
 </head>
 <body>
     <div class="container">
+        <button onclick="window.location.href='index.html'" style="margin-bottom: 10px;">🔙 Volver</button>
         <div id="titulo">
-            <h1>📚 Simulador EGEL v1.5</h1>
+            <h1>📚 Simulador EGEL Plus 2023</h1>
         </div>
         <div id="start">
             <label for="numQuestions">¿Cuántas preguntas deseas responder?</label>
             <input type="number" id="numQuestions" min="1" max="194">
             <button onclick="startQuiz()">Iniciar</button>
             <h5>
-                ⚠️ Las respuestas marcadas como correcta y justificación fueron obtenidas <br>
-                de un banco de preguntas contestadas de simuladores del EGEL, por lo que no se puede asegurar que <br>
-                que todas las preguntas sean correctas.<br><br>
-                ❗️En los casos en los que la justificación esta en blanco es porque tampoco la habia <br>
-                en el banco.
+                ⚠️ Las respuestas marcadas como correctafueron obtenidas de un banco de preguntas contestadas de simuladores del EGEL, <br>
+                por lo que no se puede asegurar que todas las preguntas sean correctas.⚠️<br><br>
+                ❗️❗️❗️En este modo el banco de preguntas no tiene justificación, pero hay mas preguntas...
             </h5>
-            <div>
-                <h4>Nuevo banco EGEL Plus 2023 (Click en la imagen para ir)</h4>
-                <a href="egel2023.html" style="display: inline-block;">
-                    <img src="egel2023.png" alt="Botón con imagen" style="width: 400px; height: auto;">
-                </a>
-            </div>
         </div>
         <div id="quiz" style="display: none;">
             <div id="question"></div>
@@ -37,7 +30,7 @@
         </div>
     </div>
 
-    <script src="questions.js"></script>
-    <script src="app.js"></script>
+    <script src="questions_egel2023.js"></script>
+    <script src="egel2023.js"></script>
 </body>
 </html>

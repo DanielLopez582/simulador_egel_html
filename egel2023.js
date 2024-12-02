@@ -10,18 +10,18 @@ let score = 0;
 // Inicia el quiz
 function startQuiz() {
     numQuestions = parseInt(document.getElementById("numQuestions").value);
-    if (isNaN(numQuestions) || numQuestions < 1 || numQuestions > questions.length) {
+    if (isNaN(numQuestions) || numQuestions < 1 || numQuestions > questions_egel2023.length) {
         alert("Por favor ingresa un número válido de preguntas.");
         return;
     }
 
     // Selecciona preguntas al azar
-    selectedQuestions = questions.sort(() => 0.5 - Math.random()).slice(0, numQuestions);
+    selectedQuestions = questions_egel2023.sort(() => 0.5 - Math.random()).slice(0, numQuestions);
     currentQuestionIndex = 0;
 
     document.getElementById("start").style.display = "none";
     document.getElementById("quiz").style.display = "block";
-    document.getElementById("titulo").innerHTML = '<h4>📚 Simulador EGEL v1.5</h4>';
+    document.getElementById("titulo").innerHTML = '<h4>📚 Simulador EGEL Plus 2023/h4>';
     //Esto deberia poder hacerse mejor
     document.getElementById("titulo").addEventListener("click", () => location.reload());
     showQuestion();
@@ -30,8 +30,17 @@ function startQuiz() {
 // Muestra la pregunta actual
 function showQuestion() {
     const question = selectedQuestions[currentQuestionIndex];
+    const imageHtml = question.imagen
+        ? `<img src="${question.imagen}" alt="Imagen de la pregunta" style="max-width: 100%; margin-top: 10px;">`
+        : "";
 
-    document.getElementById("question").innerHTML = `<p>Pregunta ${currentQuestionIndex + 1}/${numQuestions}</p><h3>${question.question}</h3>`;
+    document.getElementById("question").innerHTML = `
+        <p>Pregunta ${currentQuestionIndex + 1}/${numQuestions}</p>
+        <h3>${question.question}</h3>
+        ${imageHtml}
+    `;
+
+    //document.getElementById("question").innerHTML = `<p>Pregunta ${currentQuestionIndex + 1}/${numQuestions}</p><h3>${question.question}</h3>`;
     
     const optionsDiv = document.getElementById("options");
     optionsDiv.innerHTML = "";
@@ -62,7 +71,7 @@ function checkAnswer(selected) {
         : `❌ Incorrecto.<br>La respuesta correcta es: ${question.correct}) ${question.correct_text}`;
 
     // Muestra el resultado y la justificación
-    document.getElementById("justification").innerHTML = `<h3>${result}</h3><h4>Justificación:</h4><p>${question.justification}</p>`;
+    document.getElementById("justification").innerHTML = `<h3>${result}</h3>`;
 
     // Bloquea los botones de las opciones
     const buttons = document.querySelectorAll("#options button");
@@ -90,13 +99,32 @@ function nextQuestion() {
         document.getElementById("nextBtn").style.display = "none";
     } else {
         // Muestra el puntaje final
+        score_porcentaje = Math.round((score / selectedQuestions.length) * 100);
+        score_mensaje = getScoreMessage(score_porcentaje)
+
         document.getElementById("quiz").innerHTML = `
             <h2>¡Simulación completada! ✅</h2>
-            <p>Tu puntuación:   <strong>${score} / ${selectedQuestions.length}</strong>  (${Math.round((score/selectedQuestions.length)*100)}%)</p>
+            <p>Tu puntuación:   <strong>${score} / ${selectedQuestions.length}</strong>  (${score_porcentaje}%) ${score_mensaje}</p>
             <button id="restartBtn">🔄 Realizar nueva simulación</button>
         `;
 
         // Agrega funcionalidad al botón de reinicio
         document.getElementById("restartBtn").addEventListener("click", () => location.reload());
+    }
+}
+
+function getScoreMessage(score_porcentaje){
+    if (score_porcentaje <= 0) {
+        return "🫏";
+    } else if (score_porcentaje < 30 && score_porcentaje > 0) {
+        return "😭";
+    } else if (score_porcentaje >= 30 && score_porcentaje < 60) {
+        return "😰"
+    } else if(score_porcentaje >= 60 && score_porcentaje < 80) {
+        return "👍";
+    } else if(score_porcentaje >= 80 && score_porcentaje <100){
+        return "🙌";
+    } else {
+        return "🐐";
     }
 }
