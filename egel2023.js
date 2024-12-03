@@ -9,19 +9,25 @@ let score = 0;
 
 // Inicia el quiz
 function startQuiz() {
+    category = document.getElementById("category").value;
+    const filteredQuestions = category === "all" 
+        ? questions_egel2023 
+        : questions_egel2023.filter(q => q.categoria != 'gramatica');
+
     numQuestions = parseInt(document.getElementById("numQuestions").value);
-    if (isNaN(numQuestions) || numQuestions < 1 || numQuestions > questions_egel2023.length) {
+    if (isNaN(numQuestions) || numQuestions < 1 || numQuestions > filteredQuestions.length) {
         alert("Por favor ingresa un número válido de preguntas.");
         return;
     }
+    
 
     // Selecciona preguntas al azar
-    selectedQuestions = questions_egel2023.sort(() => 0.5 - Math.random()).slice(0, numQuestions);
+    selectedQuestions = filteredQuestions.sort(() => 0.5 - Math.random()).slice(0, numQuestions);
     currentQuestionIndex = 0;
 
     document.getElementById("start").style.display = "none";
     document.getElementById("quiz").style.display = "block";
-    document.getElementById("titulo").innerHTML = '<h4>📚 Simulador EGEL Plus 2023/h4>';
+    document.getElementById("titulo").innerHTML = '<h4>📚 Simulador EGEL Plus 2023</h4>';
     //Esto deberia poder hacerse mejor
     document.getElementById("titulo").addEventListener("click", () => location.reload());
     showQuestion();
@@ -71,7 +77,7 @@ function checkAnswer(selected) {
         : `❌ Incorrecto.<br>La respuesta correcta es: ${question.correct}) ${question.correct_text}`;
 
     // Muestra el resultado y la justificación
-    document.getElementById("justification").innerHTML = `<h3>${result}</h3>`;
+    document.getElementById("justification").innerHTML = `<h3>${result}</h3><h4>Categoria: ${question.categoria}</h4>`;
 
     // Bloquea los botones de las opciones
     const buttons = document.querySelectorAll("#options button");
