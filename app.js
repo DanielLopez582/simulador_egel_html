@@ -71,7 +71,10 @@ function checkAnswer(selected) {
 
         // Cambia el color del botón seleccionado a un color mas oscuro
         if (button.id === selected) {
-            button.style.backgroundColor = "#253f59"; //"#094585"; 
+            button.style.backgroundColor = "#d22a41";//"#253f59"; //"#094585"; 
+        }
+        if (button.id === correct) {
+            button.style.backgroundColor = "#28a745";
         }
     });
     
@@ -90,13 +93,32 @@ function nextQuestion() {
         document.getElementById("nextBtn").style.display = "none";
     } else {
         // Muestra el puntaje final
+        score_porcentaje = Math.round((score / selectedQuestions.length) * 100);
+        score_mensaje = getScoreMessage(score_porcentaje);
+
         document.getElementById("quiz").innerHTML = `
             <h2>¡Simulación completada! ✅</h2>
-            <p>Tu puntuación:   <strong>${score} / ${selectedQuestions.length}</strong>  (${Math.round((score/selectedQuestions.length)*100)}%)</p>
+            <p>Tu puntuación:   <strong>${score} / ${selectedQuestions.length}</strong>  (${score_porcentaje}%) ${score_mensaje}</p>
             <button id="restartBtn">🔄 Realizar nueva simulación</button>
         `;
 
         // Agrega funcionalidad al botón de reinicio
         document.getElementById("restartBtn").addEventListener("click", () => location.reload());
+    }
+}
+
+function getScoreMessage(score_porcentaje){
+    if (score_porcentaje <= 0) {
+        return "🫏";
+    } else if (score_porcentaje < 30 && score_porcentaje > 0) {
+        return "😭";
+    } else if (score_porcentaje >= 30 && score_porcentaje < 60) {
+        return "😰"
+    } else if(score_porcentaje >= 60 && score_porcentaje < 80) {
+        return "👍";
+    } else if(score_porcentaje >= 80 && score_porcentaje <100){
+        return "🙌";
+    } else {
+        return "🐐";
     }
 }

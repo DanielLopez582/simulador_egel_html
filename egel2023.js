@@ -12,7 +12,7 @@ function startQuiz() {
     category = document.getElementById("category").value;
     const filteredQuestions = category === "all" 
         ? questions_egel2023 
-        : questions_egel2023.filter(q => q.categoria != 'gramatica');
+        : questions_egel2023.filter(q => q.categoria === category);
 
     numQuestions = parseInt(document.getElementById("numQuestions").value);
     if (isNaN(numQuestions) || numQuestions < 1 || numQuestions > filteredQuestions.length) {
@@ -86,7 +86,10 @@ function checkAnswer(selected) {
 
         // Cambia el color del botón seleccionado a un color mas oscuro
         if (button.id === selected) {
-            button.style.backgroundColor = "#253f59"; //"#094585"; 
+            button.style.backgroundColor = "#d22a41";//"#253f59"; //"#094585"; 
+        }
+        if (button.id === correct) {
+            button.style.backgroundColor = "#28a745";
         }
     });
     
