@@ -200,7 +200,8 @@ const questions_egel2023 = [
         "options": [
             "A) Justificación",
             "B) Material y métodos",
-            "C) Marco teórico"
+            "C) Marco teórico",
+            "D) Referencias"
         ],
         "correct": "B",
         "correct_text": "Material y métodos",
@@ -214,7 +215,8 @@ const questions_egel2023 = [
         "options": [
             "A) Conclusiones",
             "B) Objetivo",
-            "C) Material y métodos"
+            "C) Material y métodos",
+            "D) Antecedentes"
         ],
         "correct": "C",
         "correct_text": "Material y métodos",
@@ -228,7 +230,8 @@ const questions_egel2023 = [
         "options": [
             "A) Objetivo general",
             "B) Planteamiento del problema",
-            "C) Objetivo especifico"
+            "C) Objetivo especifico",
+            "D) Justificación"
         ],
         "correct": "A",
         "correct_text": "Objetivo general",
@@ -242,7 +245,8 @@ const questions_egel2023 = [
         "options": [
             "A) Hipótesis",
             "B) Método",
-            "C) Justificación"
+            "C) Justificación",
+            "D) Problema"
         ],
         "correct": "B",
         "correct_text": "Método",
@@ -256,7 +260,8 @@ const questions_egel2023 = [
         "options": [
             "A) Problema de investigación",
             "B) Método",
-            "C) Resultados"
+            "C) Resultados",
+            "D) Hipótesis"
         ],
         "correct": "B",
         "correct_text": "Método",
@@ -270,7 +275,8 @@ const questions_egel2023 = [
         "options": [
             "A) Visitadores médicos de laboratorios farmacéuticos",
             "B) Revistas de divulgación científica",
-            "C) Revistas indexadas"
+            "C) Revistas indexadas",
+            "D) Páginas de internet y blogs"
         ],
         "correct": "C",
         "correct_text": "Revistas indexadas",
@@ -284,10 +290,11 @@ const questions_egel2023 = [
         "options": [
             "A) Objetivo",
             "B) Método",
-            "C) Resultados"
+            "C) Resultados",
+            "D) Conclusiones"
         ],
-        "correct": null,
-        "correct_text": null,
+        "correct": "D",
+        "correct_text": "Conclusiones",
         "justification": "Modo extraccion sin justificacion.",
         "categoria": "metodologia_investigacion",
         "origen": "bancos_preparados/egel2023_metodologia_investigacion.pdf",
@@ -298,10 +305,11 @@ const questions_egel2023 = [
         "options": [
             "A) Libro especializado",
             "B) Jefe del hospital",
-            "C) Wikipedia"
+            "C) Wikipedia",
+            "D) PubMed"
         ],
-        "correct": null,
-        "correct_text": null,
+        "correct": "D",
+        "correct_text": "PubMed",
         "justification": "Modo extraccion sin justificacion.",
         "categoria": "metodologia_investigacion",
         "origen": "bancos_preparados/egel2023_metodologia_investigacion.pdf",
@@ -312,10 +320,11 @@ const questions_egel2023 = [
         "options": [
             "A) Los antecedentes patológicos del paciente",
             "B) La participación es indispensable para recibir atención médica",
-            "C) Los posibles efectos adversos son responsabilidad del participante"
+            "C) Los posibles efectos adversos son responsabilidad del participante",
+            "D) La libertad del paciente para retirarse del estudio"
         ],
-        "correct": null,
-        "correct_text": null,
+        "correct": "D",
+        "correct_text": "La libertad del paciente para retirarse del estudio",
         "justification": "Modo extraccion sin justificacion.",
         "categoria": "metodologia_investigacion",
         "origen": "bancos_preparados/egel2023_metodologia_investigacion.pdf",
@@ -326,24 +335,11 @@ const questions_egel2023 = [
         "options": [
             "A) Beneficios esperados",
             "B) Pronóstico",
-            "C) Plan de manejo"
+            "C) Plan de manejo",
+            "D) Gráfico de signos vitales"
         ],
         "correct": "A",
         "correct_text": "Beneficios esperados",
-        "justification": "Modo extraccion sin justificacion.",
-        "categoria": "metodologia_investigacion",
-        "origen": "bancos_preparados/egel2023_metodologia_investigacion.pdf",
-        "imagen": ""
-    },
-    {
-        "question": "11. Un paciente de 67 años fue reclutado a un protocolo de investigación para evaluar la eficacia de un\nnuevo fármaco, dio su consentimiento informado. Sin embargo, ha decidido salir del estudio debido a\nque se siente mal por los efectos adversos.\nEn esta situación, ¿qué debe hacer el médico investigador?",
-        "options": [
-            "A) No puede salir porque firmo el consentimiento informado",
-            "B) Es normal tener reacciones secundarias a los medicamentos por lo que no es un motivo",
-            "C) Permitir que se retire del estudio, no importa el motivo"
-        ],
-        "correct": "C",
-        "correct_text": "Permitir que se retire del estudio, no importa el motivo",
         "justification": "Modo extraccion sin justificacion.",
         "categoria": "metodologia_investigacion",
         "origen": "bancos_preparados/egel2023_metodologia_investigacion.pdf",
@@ -354,10 +350,11 @@ const questions_egel2023 = [
         "options": [
             "A) Razón de momios",
             "B) Prevalencia",
-            "C) Número necesario de pacientes"
+            "C) Número necesario de pacientes",
+            "D) Riesgo relativo"
         ],
-        "correct": null,
-        "correct_text": null,
+        "correct": "D",
+        "correct_text": "Riesgo relativo",
         "justification": "Modo extraccion sin justificacion.",
         "categoria": "metodologia_investigacion",
         "origen": "bancos_preparados/egel2023_metodologia_investigacion.pdf",
@@ -368,10 +365,11 @@ const questions_egel2023 = [
         "options": [
             "A) Riesgo relativo",
             "B) Diferencia de medidas",
-            "C) Desviación estándar"
+            "C) Desviación estándar",
+            "D) Razón de momios"
         ],
-        "correct": null,
-        "correct_text": null,
+        "correct": "D",
+        "correct_text": "Razón de momios",
         "justification": "Modo extraccion sin justificacion.",
         "categoria": "metodologia_investigacion",
         "origen": "bancos_preparados/egel2023_metodologia_investigacion.pdf",
@@ -382,7 +380,8 @@ const questions_egel2023 = [
         "options": [
             "A) Transversal",
             "B) Casos y controles",
-            "C) Longitudinal"
+            "C) Longitudinal",
+            "D) Serie de casos"
         ],
         "correct": "C",
         "correct_text": "Longitudinal",
@@ -396,7 +395,8 @@ const questions_egel2023 = [
         "options": [
             "A) Cohorte retrospectivo",
             "B) Cohorte prospectivo",
-            "C) Experimental retrospectivo"
+            "C) Experimental retrospectivo",
+            "D) Ensayo clínico"
         ],
         "correct": "A",
         "correct_text": "Cohorte retrospectivo",
@@ -410,7 +410,8 @@ const questions_egel2023 = [
         "options": [
             "A) Cohorte",
             "B) Casos y controles",
-            "C) Ensayo clínico"
+            "C) Ensayo clínico",
+            "D) Descriptivo"
         ],
         "correct": "B",
         "correct_text": "Casos y controles",
@@ -424,10 +425,11 @@ const questions_egel2023 = [
         "options": [
             "A) Cohorte",
             "B) Casos y controles",
-            "C) Descriptivo"
+            "C) Descriptivo",
+            "D) Ensayo clínico"
         ],
-        "correct": null,
-        "correct_text": null,
+        "correct": "D",
+        "correct_text": "Ensayo clínico",
         "justification": "Modo extraccion sin justificacion.",
         "categoria": "metodologia_investigacion",
         "origen": "bancos_preparados/egel2023_metodologia_investigacion.pdf",
@@ -438,7 +440,8 @@ const questions_egel2023 = [
         "options": [
             "A) Ecológico",
             "B) Casos y controles",
-            "C) Cohorte"
+            "C) Cohorte",
+            "D) Ensayo clínico"
         ],
         "correct": "A",
         "correct_text": "Ecológico",
@@ -452,7 +455,8 @@ const questions_egel2023 = [
         "options": [
             "A) Ensayo clínico fase I",
             "B) Ensayo clínico fase II",
-            "C) Preclínico"
+            "C) Preclínico",
+            "D) Ensayo clínico fase III"
         ],
         "correct": "A",
         "correct_text": "Ensayo clínico fase I",
@@ -466,7 +470,8 @@ const questions_egel2023 = [
         "options": [
             "A) Opinión de otros médicos",
             "B) Revisión sistemática",
-            "C) Caso clínico"
+            "C) Caso clínico",
+            "D) Revistas de divulgación"
         ],
         "correct": "B",
         "correct_text": "Revisión sistemática",
@@ -480,7 +485,8 @@ const questions_egel2023 = [
         "options": [
             "A) Anuarios de morbilidad",
             "B) Resultados de encuestas",
-            "C) Revisión sistemática con metaanálisis"
+            "C) Revisión sistemática con metaanálisis",
+            "D) Estudio de casos"
         ],
         "correct": "C",
         "correct_text": "Revisión sistemática con metaanálisis",
@@ -494,7 +500,8 @@ const questions_egel2023 = [
         "options": [
             "A) Cohorte",
             "B) Casos y controles",
-            "C) Ensayo clínico"
+            "C) Ensayo clínico",
+            "D) Transversal"
         ],
         "correct": "A",
         "correct_text": "Cohorte",
@@ -508,24 +515,11 @@ const questions_egel2023 = [
         "options": [
             "A) Cohorte",
             "B) Casos y controles",
-            "C) Ensayo clínico no controlado"
+            "C) Ensayo clínico no controlado",
+            "D) Ensayo clínico controlado aleatorizado"
         ],
-        "correct": null,
-        "correct_text": null,
-        "justification": "Modo extraccion sin justificacion.",
-        "categoria": "metodologia_investigacion",
-        "origen": "bancos_preparados/egel2023_metodologia_investigacion.pdf",
-        "imagen": ""
-    },
-    {
-        "question": "24. Queremos conocer si el consumo de café puede estar asociado a la malformación neonatal por lo que\nse diseña un estudio de casos y controles. Se entrevista a un grupo de mujeres que han tenido niños con\nmalformaciones y lo mismo en un grupo de madres sin hijos con malformaciones. Las entrevistas las\nrealizarán dos entrevistadores entrenados, mediante un cuestionario previamente validado. Además los\nentrevistadores ignoran si la entrevista es un caso o un control.\n¿Qué tipo de sesgo podemos introducir?",
-        "options": [
-            "A) Sesgo de memoria",
-            "B) Sesgo de entrenador",
-            "C) Falacia ecológica"
-        ],
-        "correct": "A",
-        "correct_text": "Sesgo de memoria",
+        "correct": "D",
+        "correct_text": "Ensayo clínico controlado aleatorizado",
         "justification": "Modo extraccion sin justificacion.",
         "categoria": "metodologia_investigacion",
         "origen": "bancos_preparados/egel2023_metodologia_investigacion.pdf",
@@ -536,10 +530,11 @@ const questions_egel2023 = [
         "options": [
             "A) Sensibilidad",
             "B) Valor predictivo positivo",
-            "C) Especificidad"
+            "C) Especificidad",
+            "D) Valor predictivo negativo"
         ],
-        "correct": null,
-        "correct_text": null,
+        "correct": "D",
+        "correct_text": "Valor predictivo negativo",
         "justification": "Modo extraccion sin justificacion.",
         "categoria": "metodologia_investigacion",
         "origen": "bancos_preparados/egel2023_metodologia_investigacion.pdf",
@@ -1467,7 +1462,7 @@ const questions_egel2023 = [
         "justification": "Modo extraccion sin justificacion.",
         "categoria": "medicina",
         "origen": "bancos_preparados/egel2023_parte2.pdf",
-        "imagen": "img/parte_2_25.jpg"
+        "imagen": ""
     },
     {
         "question": "29. Paciente masculino de 48 años acude a consulta por náusea y vómito por\ningesta de destilados en cantidad abundante la noche previa. Niega\nantecedentes de enfermedades crónicas y alergias, tabaquismo positivo a\nrazón de cinco a siete cigarros al día: Al interrogar más a fondo, se detecta\nque desde hace 1 mes aumentó la ingesta de bebidas alcohólicas hasta hacerlo\ncasi diariamente, incluso solo en casa, llegando a la embriaguez de manera\nocasional. El paciente menciona que ha presentado retardos recurrentes en su\ntrabajo por las molestias en la mañana y que en la última semana lo han\namonestado por esta situación.\n¿Cuál de las siguientes opciones de prevención y educación en salud se recomienda\nen este caso?",
@@ -1747,7 +1742,7 @@ const questions_egel2023 = [
         "justification": "Modo extraccion sin justificacion.",
         "categoria": "medicina",
         "origen": "bancos_preparados/egel2023_plus_2023.pdf",
-        "imagen": "img/plus_2023_20.jpg"
+        "imagen": ""
     },
     {
         "question": "21. Acude a consulta una paciente de 19 años debido a que su pareja actual fue notificada por una expareja\nque recibió diagnóstico de infección por VPH con riesgo de cáncer. Ella teme que su novio sea portador\ny la haya contagiado. Entre sus antecedentes indica menarca a los 13 años, ritmo de 30 por 3-4 con\ndismenorrea leve, IVSA a los 17 años, tres parejas sexuales y actualmente usa píldoras como método\nanticonceptivo. En la exploración física se registran signos vitales normales al igual que las mamas, se\nobserva cérvix puntiforme con erosión periorificiaria, secreción blanco-amarillenta, pastosa no fétida; los\nanexos y el útero se palpan normales.\n¿Qué estudio se debe solicitar para la paciente?",
@@ -1775,7 +1770,7 @@ const questions_egel2023 = [
         "justification": "Modo extraccion sin justificacion.",
         "categoria": "medicina",
         "origen": "bancos_preparados/egel2023_plus_2023.pdf",
-        "imagen": "img/plus_2023_22.jpg"
+        "imagen": ""
     },
     {
         "question": "23. Mujer de 56 años, G1 P1, acude al Servicio de Ginecobstetricia a realizarse prueba detección de lesiones\nprecursoras de cáncer cervicouterino. Se presume carcinoma epidermoide in situ en cérvix uterino.\n¿Cuál es el estudio de gabinete para confirmar el diagnóstico?",
@@ -2030,7 +2025,7 @@ const questions_egel2023 = [
         "imagen": ""
     },
     {
-        "question": "000. ¿Cuál es el criterio de referencia para enviarla al siguiente nivel de atención?",
+        "question": "41. Una mujer de 20 años con 36 SDG acude a la unidad de medicina familiar por edema de extremidades\ninferiores, cefalea, sudoración y nerviosismo de 3 meses de evolución, a lo que se agregan, hace 48 horas,\nevacuaciones diarreicas, náuseas y vómito. En la EF, se registra TA de 170/90 mmHg, FC de 120/min, FR de\n28/min, T de 38.5, mucosa oral seca, confusión, precordio con ruidos rítmicos de buen tono e intensidad\naumentados en frecuencia, abdomen globoso a expensas de útero gestante sin datos patológicos,\nextremidades superiores con temblor fino y extremidades inferiores con edema bimaleolar ++. Laboratorios:\nTSH de 0.02 μU/mL, T4 libre de 6 ng/dL, T4 total de 22 ug/dL, glucosa de 65 mg/dL, creatinina de 1 mg/dL; el\nexamen general de orina muestra proteínas (+), sodio de 145 mmol/L, potasio de 4 mmol/L, cloro de 108\nmmol/L, AST: 35 U/I, ALT: 30 U/I, DHL de 180 y plaquetas 250,000\n¿Cuál es el criterio de referencia para enviarla al siguiente nivel de atención?",
         "options": [
             "A) Tormenta tiroidea",
             "B) Taquicardia paroxística",
@@ -3595,7 +3590,7 @@ const questions_egel2023 = [
         "justification": "Modo extraccion sin justificacion.",
         "categoria": "medicina",
         "origen": "bancos_preparados/egel2023_primera_parte.pdf",
-        "imagen": "img/primera_parte_21.jpg"
+        "imagen": ""
     },
     {
         "question": "22. Un paciente de 34 años es referida por el servicio de medicina preventiva por presentar una citología\ncervical LEIAG (lesión intraepitelial de alto grado), sin reporte de resultado de VPH; paciente actualmente\nse encuentra sintomática. Como antecedente presenta G0 P0 A0, IVSA 17 años, 2 parejas sexuales y uso\nde anticonceptivos orales. En el examen ginecológico se observan anormalidades morfológicas en cuello\nuterino.\n¿Qué estudio se debe indicar para el estudio de la paciente?",
