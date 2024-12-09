@@ -303,8 +303,8 @@ const questions = [
             "B) Intoxicación por plaguicidas y recolección insuficiente de basura",
             "C) Falta de capacitación sobre mecanización y antecedente de quema de basura"
         ],
-        "correct": "B",
-        "correct_text": "Intoxicación por plaguicidas y recolección insuficiente de basura",
+        "correct": "A",
+        "correct_text": "Desconocimiento sobre el uso correcto del EPP y de los plaguicidas",
         "justification": "La medicina preventiva se centra en la evitación de los problemas de salud antes de que se produzcan. La medicina\npreventiva también se centra en el diagnóstico de problemas de salud antes de que se manifiesten los síntomas o\nsurjan complicaciones, cuando las probabilidades de recuperación son más altas\nSíntomas de intoxicación por pesticidas: Náusea, dolor de cabeza, mareo, molestia de pecho, ampollas de piel,\ndiarrea, visión borrosa.\nLos riesgos que los desechos sólidos no recolectados tienen para la salud son evidentemente mayores para las\npersonas que habitan en zonas sin cobertura de los servicios de recolección y barrido. Los niños de edad preescolar\nson los más expuestos a sufrir lesiones, intoxicaciones o infecciones, puesto que suelen entrar en contacto con estos\nresiduos en las calles o en los basureros no oficiales"
     },
     {

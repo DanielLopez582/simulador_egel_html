@@ -3263,8 +3263,8 @@ const questions_egel2023 = [
             "B) Glucosa en ayuno",
             "C) Curva de tolerancia a la glucosa"
         ],
-        "correct": "C",
-        "correct_text": "Curva de tolerancia a la glucosa",
+        "correct": "B",
+        "correct_text": "Glucosa en ayuno",
         "justification": "Modo extraccion sin justificacion.",
         "categoria": "medicina",
         "origen": "bancos_preparados/egel2023_preguntas_complementarias.pdf",
