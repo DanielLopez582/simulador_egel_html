@@ -1887,9 +1887,9 @@ const questions = [
             "B) Glucosa en ayuno",
             "C) Curva de tolerancia a la glucosa"
         ],
-        "correct": "A",
-        "correct_text": "Hemoglobina glucosilada",
-        "justification": ""
+        "correct": "B",
+        "correct_text": "Glucosa en ayuno",
+        "justification": "La GPC recomienda utilizar la glucosa en ayuno como prueba de tamizaje. HbA1c no se recomienda como tamizaje por su baja sensibilidad y especificidad."
     },
     {
         "question": "67. Un paciente de 65 años acude a consulta para solicitar consejería sobre la prevención del cáncer de pulmón, ya\nque su hermano de 70 años falleció hace dos meses por esa causa. Como antecedentes personales indica que es\ncasado y jubilado, así como padecer tabaquismo desde hace 30 años a razón de 10 a 15 cigarrillos por día. Hace 5\naños le diagnosticaron diabetes y se encuentra bajo control con tratamiento farmacológico. Con la finalidad de\ndisminuir el riesgo de cáncer de pulmón en el paciente, además del cese del tabaquismo, la medida de prevención\npor indicarse es…",
